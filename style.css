@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+ol,
+dl,
+p,
+h1 {
+  margin: 0;
+}
+article,
+aside,
+audio,
+footer,
+header,
+nav,
+section,
+video {
+  display: block;
+}
+
+/* ensures that older browsers will display HTML5 elements correctly */
+
+h1 {
+  font-size: 1.4rem;
+}
+/* begins to set up font sizes relative to base rem – h1 has been used as an example */
+
+p {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+/* sets hyphenation by default on paragraphs */
+
+textarea {
+  resize: vertical;
+}
+/* changes textarea resizing from "both" (UA default) to vertical only */
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+/* ============================================================================================ */
+
+/* the codes above are resets, do not alter */
+
+/* CSS naming convention */
+
+/* always start classname with (topic)__(purpose) */
+/* example: blog__details */
+
+/* ============================================================================================ */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.color__primary {
+  color: #c20b0d;
+}
+
+.color__secondary {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #c20b0d;
+  color: white;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav {
+  height: 100px;
+  background-color: bisque;
+  display: flex;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+footer {
+  height: 300px;
+  background-color: #c20b0d;
+}
+
+/* ============================================================================================ */
+
+/* Your CSS starts here */
+
+/* ============================================================================================ */
+
+/* DO NOT ALTER */
+
+/* Responsiveness */
+
+/* xs */
+@media only screen and (max-width: 0px) {
+}
+
+/* mb */
+@media only screen and (max-width: 350px) {
+}
+
+/* sm */
+@media only screen and (max-width: 600px) {
+}
+
+/* md */
+@media only screen and (max-width: 960px) {
+}
+
+/* lg */
+@media only screen and (max-width: 1280px) {
+}
+
+/* xl */
+@media only screen and (max-width: 1920px) {
+}
