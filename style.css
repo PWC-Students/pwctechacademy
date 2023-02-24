@@ -131,6 +131,7 @@ footer {
   height: 500px;
   width: 100%;
   position: relative;
+  display: flex;
 }
 
 .career__cover img {
@@ -148,13 +149,11 @@ footer {
   justify-content: start;
   align-items: center;
   height: 300px;
-  width: 40%;
+  width: 550px;
   padding: 0 20px;
   text-align: center;
   row-gap: 30px;
-  position: absolute;
-  top: 100px;
-  left: 10%;
+  margin: 100px 0 100px 100px;
 }
 
 .career__card h1 {
@@ -280,6 +279,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: bold;
 }
 
 .career__corevalue .career__items .career__card1 .career__overlay {
@@ -318,6 +318,7 @@ footer {
   align-items: center;
   text-align: center;
   margin-top: 60px;
+  font-weight: bold;
 }
 
 .career__corevalue .career__items .career__card3 {
@@ -347,6 +348,7 @@ footer {
   align-items: center;
   text-align: center;
   margin-top: 50px;
+  font-weight: bold;
 }
 
 .career__corevalue .career__items .career__card4 {
@@ -373,6 +375,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: bold;
 }
 
 .career__corevalue .career__items .career__card5 {
@@ -400,6 +403,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: bold;
 }
 
 .career__benefits {
@@ -446,7 +450,18 @@ footer {
   height: 100%;
   width: 100%;
   padding: 10px 100px 50px 100px;
-  background-color: white;
+  background-color: #f7f9fa;
+  position: relative;
+  padding: 0;
+}
+
+.career__jointeam .career__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  background: #f7f9fa;
 }
 
 .career__jointeam .career__details h1 {
@@ -459,12 +474,34 @@ footer {
   font-weight: lighter;
 }
 
-.career__jointeam .career__details {
+.career__dropdown {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 0 100px;
   row-gap: 30px;
+}
+
+.career__dropdown .career__props {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.career__dropdown .career__items {
+  height: 100%;
+  width: 100%;
+  border-top: 1.5px solid #d8d8d8;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  padding: 30px 0 0 0;
+  font-weight: bolder;
 }
 
 /* ============================================================================================ */
