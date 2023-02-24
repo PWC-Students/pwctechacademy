@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/hover.css" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="https://i.ibb.co/G2y6b8f/techademy-icon.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
     </style>
@@ -21,8 +27,9 @@
     <main class="career__container">
       <section class="career__cover">
         <div class="career__card">
-          <span></span>
-          <h1>Let's shape the future of learning</h1>
+          <span class="border__line"></span>
+          <div><h1 class="type-animation"></h1></div>
+
           <p>
             Help people around the world empower themselves through knowledge.
             Teach and Inspire, become an Instructor!
@@ -133,29 +140,145 @@
         <h1>Our Core Values</h1>
         <p><a href="/">Learn more about our values</a></p>
         <div class="career__items">
-          <div class="career__card1">
-            <img src="https://i.ibb.co/XSnkL7T/corevalue1.png" alt="" />
+          <div
+            class="career__card1"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <img src="https://i.ibb.co/9p6kqPb/corevalue1.png" alt="" />
             <div class="career__details">
               <p>Earnestly Authentic</p>
             </div>
+            <div class="hvr-shutter-in-vertical"></div>
           </div>
-          <div class="career__card2">
-            <img src="https://i.ibb.co/p0BwTR5/corevalue2.png" alt="" />
+          <div
+            class="career__card2"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
+            <img src="https://i.ibb.co/FgMrhct/corevalue2.png" alt="" />
             <div class="career__details">
               <p>Individual Humble Collectively Proud</p>
             </div>
           </div>
-          <div class="career__card3">
-            <img src="https://i.ibb.co/sqQLM17/corevalue3.png" alt="" />
+          <div
+            class="career__card3"
+            data-aos="fade-up"
+            data-aos-duration="2400"
+          >
+            <img src="https://i.ibb.co/RQXm6fg/corevalue3.png" alt="" />
             <div class="career__details">
               <p>Always Learning</p>
             </div>
           </div>
-          <div class="career__card4">Courageously Experimental</div>
-          <div class="career__card5">Results Driven</div>
+          <div
+            class="career__card4"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <img src="https://i.ibb.co/9nG6YRp/corevalue4.png" alt="" />
+            <div class="career__details">
+              <p>Courageously Experimental</p>
+            </div>
+          </div>
+          <div
+            class="career__card5"
+            data-aos="fade-up"
+            data-aos-duration="1800"
+          >
+            <img src="https://i.ibb.co/ByV3Xhn/corevalue5.png" alt="" />
+            <div class="career__details">
+              <p>Results Driven</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="career__benefits">
+        <h1>Perks and Benefits</h1>
+        <div class="career__details">
+          <div class="career__items">
+            <h1 class="border-animation">Global Benefits</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              Our many benefits, equity, and time-off programs are made-to-fit
+              for each of our international locations.
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>Charitable Matching</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              Help a cause that matters to you. We match monetary contributions
+              up to a certain annual limit for eligible nonprofits and
+              charities.
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>Learning incentives</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              Get free access to Udemy and Udemy Business courses plus a yearly
+              stipend to spend on your professional development.
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>PWCTechademy Program</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              We prioritize Diversity and Inclusion through events, trainings,
+              and meet-ups facilitated by our many Employee Resource Groups.
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>Guest speakers</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              We believe in diversity of perspective and regularly host speakers
+              from a variety of industries and backgrounds.
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>Learning programs</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              Our amazing Learning and Development team regularly provides
+              top-notch training sessions and company-wide learning initiatives.
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>Company events</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              Enjoy company celebrations, wellness events, and fun
+              extracurriculars like yoga, cooking classes, karaoke, and more
+            </p>
+          </div>
+          <div class="career__items">
+            <h1>Well-being memberships</h1>
+            <div data-aos="fade-right" data-aos-duration="100"></div>
+            <p>
+              Stay zen with free access to the entire Headspace library. Plus,
+              get free coaching and therapy sessions through Modern Health.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="career__jointeam">
+        <div class="career__details">
+          <h1>Join our team</h1>
+          <p>
+            Does PWCTechademy like a place you'd enjoy working? If so, join our
+            team!
+          </p>
         </div>
       </section>
     </main>
     <footer></footer>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="/main.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
