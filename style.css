@@ -238,6 +238,7 @@ footer {
 
 .career__corevalue a {
   font-weight: 700;
+  color: #5624d0;
 }
 
 .career__corevalue .career__items {
@@ -464,6 +465,10 @@ footer {
   background: #f7f9fa;
 }
 
+.career__jointeam .career__details span {
+  color: #c20b0d;
+}
+
 .career__jointeam .career__details h1 {
   font-weight: bolder;
   font-size: 50px;
@@ -474,12 +479,25 @@ footer {
   font-weight: lighter;
 }
 
+.career__jointeam .career__endpoint {
+  padding: 20px 100px 100px 100px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.career__jointeam .career__endpoint a {
+  color: #5624d0;
+  text-decoration: underline;
+}
+
 .career__dropdown {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 100px;
+  padding: 50px 100px;
   row-gap: 30px;
 }
 
@@ -502,6 +520,64 @@ footer {
   border-bottom: none;
   padding: 30px 0 0 0;
   font-weight: bolder;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+}
+
+.career__dropdown .career__items svg {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  transform: rotate(-270deg);
+}
+
+.career__dropdown div {
+  display: block;
+  background-color: #f7f9fa;
+  overflow: hidden;
+}
+
+.career__dropdown div a {
+  color: #5624d0;
+  text-decoration: none;
+}
+
+.career__dropdown div .item1 {
+  display: none;
+}
+
+.career__dropdown div .item2 {
+  display: none;
+}
+
+.career__dropdown div .item3 {
+  display: none;
+}
+
+.career__dropdown div .item4 {
+  display: none;
+}
+
+.career__dropdown div .item5 {
+  display: none;
+}
+
+.career__dropdown div .item6 {
+  display: none;
+}
+
+.career__dropdown div .item7 {
+  display: none;
+}
+
+.career__dropdown div .item8 {
+  display: none;
+}
+
+.career__dropdown div .item9 {
+  display: none;
 }
 
 /* ============================================================================================ */
