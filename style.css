@@ -51,6 +51,14 @@ img {
   max-width: 100%;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* ============================================================================================ */
 
 /* the codes above are resets, do not alter */
