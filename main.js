@@ -1,5 +1,5 @@
-const blogs = [
-  {
+const blogs = {
+  html: {
     id: "category1",
     title: "HTML",
     articles: [
@@ -11,6 +11,7 @@ const blogs = [
         author_profile: "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
         date_created: "2/28/2023",
         read_min: "13 minutes read",
+        popularity: "4.3",
       },
       {
         id: "article2",
@@ -18,8 +19,9 @@ const blogs = [
         description: "This is sample data #1",
         author: "Keanu John Lariosa",
         author_profile: "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
-        date_created: "2/28/2023",
+        date_created: "2/27/2023",
         read_min: "13 minutes read",
+        popularity: "4.5",
       },
       {
         id: "article3",
@@ -27,12 +29,13 @@ const blogs = [
         description: "This is sample data #1",
         author: "Keanu John Lariosa",
         author_profile: "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
-        date_created: "2/28/2023",
+        date_created: "2/23/2023",
         read_min: "13 minutes read",
+        popularity: "5.0",
       },
     ],
   },
-  {
+  css: {
     id: "category2",
     title: "CSS",
     articles: [
@@ -44,6 +47,7 @@ const blogs = [
         author_profile: "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
         date_created: "2/28/2023",
         read_min: "13 minutes read",
+        popularity: "1.5",
       },
       {
         id: "article2",
@@ -53,6 +57,7 @@ const blogs = [
         author_profile: "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
         date_created: "2/28/2023",
         read_min: "13 minutes read",
+        popularity: "5.0",
       },
       {
         id: "article3",
@@ -62,36 +67,89 @@ const blogs = [
         author_profile: "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
         date_created: "2/28/2023",
         read_min: "13 minutes read",
+        popularity: "3.0",
       },
     ],
   },
-];
+};
 
-const articles = document.querySelector(".blog__articles");
+const popular = document.querySelector(".glide__slides__popular");
+const recent = document.querySelector(".glide__slides__recent");
 
-articles.innerHTML = blogs
-  .map(
-    (blog) =>
-      `
-      <a href="" class=${blog.id}>
-      <h1>${blog.title}</h1>
-      <div>
-      ${(articles.innerHTML = blog.articles
-        .map(
-          (articles) => `<div class=${articles.id}>
-          <h5> ${articles.date_created} ·  ${articles.read_min}</h5>
-          <h1>${articles.title}</h1>
-          <img src=${articles.author_profile} alt="profile-image"/>
-          <div>
-          <p>${articles.author}</p>
-          <p>Developer</p>
-          </div>
-      </div>
-      `
-        )
-        .join(""))}
-        </div>
-        </a>
- `
+// converts object into an array
+const articleArray = [];
+Object.values(blogs).forEach((key) => {
+  articleArray.push(...key.articles);
+});
+
+function articleMap(data, sortType) {
+  data.innerHTML = sortType
+    .map(
+      (article) =>
+        `
+    <li class="glide__slide">
+    <h5> ${article.date_created} ·  ${article.read_min}</h5>
+    <h1>${article.title}</h1>
+    <div class="article__author">
+    <img src=${article.author_profile} alt="profile-image"/>
+    <div>
+    <p>${article.author}</p>
+    <p>Developer</p>
+    </div>
+    </div>
+    </li>
+    `
+    )
+    .join("");
+}
+
+articleMap(
+  popular,
+  articleArray.sort((a, b) => b.popularity - a.popularity)
+);
+articleMap(
+  recent,
+  articleArray.sort(
+    (a, b) => new Date(b.date_created) - new Date(a.date_created)
   )
-  .join("");
+);
+
+//drag slide
+function dragSlide(data) {
+  let isDown = false;
+  let start;
+  let scrollLeft;
+
+  data.addEventListener("mousedown", (e) => {
+    isDown = true;
+    data.classList.add("active");
+    start = e.pageX - data.offsetLeft;
+    scrollLeft = data.scrollLeft;
+  });
+  data.addEventListener("mouseleave", () => {
+    isDown = false;
+    data.classList.remove("active");
+  });
+  data.addEventListener("mouseup", () => {
+    isDown = false;
+    data.classList.remove("active");
+  });
+  data.addEventListener("mousemove", (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - data.offsetLeft;
+    const walk = (x - start) * 3; //scroll-fast
+    data.scrollLeft = scrollLeft - walk;
+  });
+}
+
+dragSlide(popular);
+dragSlide(recent);
+
+function slider(data) {
+  console.log(data);
+  const slide = document.querySelector(".glide__slide");
+  const nextButton = document.querySelector(".glide__next");
+  const slideWidth = slide.clientWidth;
+  data.scrollLeft += slideWidth * 3.1;
+}

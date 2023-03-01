@@ -57,7 +57,34 @@
           <li><a href="">C#</a></li>
         </ul>
       </section>
-      <section class="blog__articles"></section>
+      <section class="blog__main">
+        <div class="blog__articles">
+          <div class="glide">
+            <div class="glide__track">
+              <h1>Popular</h1>
+              <ul class="glide__slides__popular"></ul>
+            </div>
+            <div class="glide__arrows">
+              <button class="glide__next" onclick="slider(popular)">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="glide">
+            <div class="glide__track">
+              <h1>Recent</h1>
+              <ul class="glide__slides__recent"></ul>
+            </div>
+            <div class="glide__arrows">
+              <button class="glide__next" onclick="slider(recent)">
+                <i class="fa fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog__divider"></section>
+      <section class="blog__webdev"></section>
     </main>
     <footer></footer>
   </body>
