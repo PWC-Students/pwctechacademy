@@ -188,7 +188,7 @@ footer {
 
 .blog__main {
   display: flex;
-  padding: 20px 50px;
+  padding: 20px 50px 80px 50px;
   width: 100%;
   height: 100%;
   row-gap: 30px;
@@ -198,9 +198,10 @@ footer {
   display: flex;
   flex-direction: column;
   color: #1c1d1f;
-  padding: 20px;
+  padding: 40px 20px;
   line-height: 28px;
   overflow: hidden;
+  row-gap: 30px;
 }
 
 .blog__articles div {
@@ -375,22 +376,22 @@ footer {
   align-items: start;
 }
 
-.blog__divider {
+.blog__divider1 {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 300px;
+  height: 250px;
   padding: 50px 0;
-  background-image: url("/parallax-img1.png");
+  background-image: url("https://i.ibb.co/S5Vj3sZ/parallax-img1.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.blog__divider .blog__divider__details {
+.blog__divider1 .blog__divider__details {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -400,10 +401,575 @@ footer {
 }
 
 .blog__webdev {
-  height: 100vh;
+  display: flex;
+  padding: 20px 50px 80px 50px;
   width: 100%;
+  height: 100%;
+  row-gap: 30px;
 }
 
+.blog__articles .glide__slides__html {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__html:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__html li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__html li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__html li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__html li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__html li p {
+  color: #7d8285;
+}
+
+.blog__articles .glide__slides__css {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__css:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__css li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__css li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__css li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__css li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__css li p {
+  color: #7d8285;
+}
+
+.blog__articles .glide__slides__javascript {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__javascript:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__javascript li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__javascript li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__javascript li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__javascript li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__javascript li p {
+  color: #7d8285;
+}
+
+.blog__divider2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  padding: 50px 0;
+  background-image: url("https://i.ibb.co/nqG6Gj1/parallax-img2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog__divider2 .blog__divider__details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  row-gap: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.blog__frameworks {
+  display: flex;
+  padding: 20px 50px 80px 50px;
+  width: 100%;
+  height: 100%;
+  row-gap: 30px;
+}
+
+.blog__articles .glide__slides__reactjs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__reactjs:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__reactjs li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__reactjs li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__reactjs li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__reactjs li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__reactjs li p {
+  color: #7d8285;
+}
+
+.blog__articles .glide__slides__nextjs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__nextjs:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__nextjs li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__nextjs li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__nextjs li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__nextjs li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__nextjs li p {
+  color: #7d8285;
+}
+
+.blog__articles .glide__slides__laravel {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__laravel:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__laravel li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__laravel li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__laravel li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__laravel li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__laravel li p {
+  color: #7d8285;
+}
+
+.blog__divider3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  padding: 50px 0;
+  background-image: url("https://i.ibb.co/YXC9QsP/parallax-img3.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog__divider3 .blog__divider__details {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  row-gap: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.blog__languages {
+  display: flex;
+  padding: 20px 50px 80px 50px;
+  width: 100%;
+  height: 100%;
+  row-gap: 30px;
+}
+
+.blog__articles .glide__slides__python {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__python:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__python li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__python li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__python li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__python li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__python li p {
+  color: #7d8285;
+}
+
+.blog__articles .glide__slides__java {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__java:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__java li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__java li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__java li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__java li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__java li p {
+  color: #7d8285;
+}
+
+.blog__articles .glide__slides__php {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.5s ease-in-out;
+  column-gap: 16px;
+  cursor: grab;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.blog__articles .glide__slides__php:active {
+  cursor: grabbing;
+}
+
+.blog__articles div .glide__slides__php li {
+  /* Set the flex-basis of each item to one-third of the total width */
+  flex: 0 0 calc(98% / 3);
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: start;
+  white-space: nowrap;
+  border: 1px solid #d8d8d8;
+  overflow: hidden;
+}
+
+.blog__articles div .glide__slides__php li h1 {
+  font-size: 18px;
+  padding: 14px 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.blog__articles div .glide__slides__php li h1:hover {
+  color: #c20b0d;
+}
+
+.blog__articles div .glide__slides__php li h5 {
+  color: #7d8285;
+  margin: 0;
+}
+
+.blog__articles div .glide__slides__php li p {
+  color: #7d8285;
+}
+
+.blog__endpoint {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  height: 130;
+  width: 100%;
+  border-top: 2px solid #d1d7dc;
+  padding: 20px 100px;
+}
+
+.blog__endpoint .grid1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.blog__endpoint .grid1 h1 {
+  font-weight: bolder;
+}
+
+.blog__endpoint .grid2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.blog__endpoint .grid2 button {
+  background: #c20b0d;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 1.4em 1.5em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.blog__endpoint .grid2 button:hover {
+  opacity: 0.9;
+}
 /* ============================================================================================ */
 
 /* DO NOT ALTER */
