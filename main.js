@@ -450,3 +450,12 @@ function slider(data) {
   const slideWidth = slide.clientWidth;
   data.scrollLeft += slideWidth * 3.1;
 }
+
+function show_hide() {
+  var click = document.querySelector(".dropdown__content");
+  if (click.style.display === "none") {
+    click.style.display = "flex";
+  } else {
+    click.style.display = "none";
+  }
+}
