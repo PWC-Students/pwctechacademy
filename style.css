@@ -227,6 +227,21 @@ footer {
 .blog__articles .glide__track {
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.blog__articles .glide__track a {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #c20b0d;
+  cursor: pointer;
+}
+
+.blog__articles .glide__track a:hover {
+  text-decoration: underline;
 }
 
 .blog__articles .glide .glide__arrows button {
@@ -275,6 +290,9 @@ footer {
 .blog__articles div .glide__slides__popular li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -326,6 +344,9 @@ footer {
 .blog__articles div .glide__slides__recent li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -366,14 +387,22 @@ footer {
 .blog__articles .article__author {
   display: flex;
   column-gap: 20px;
-  margin: 44px 0 0 0;
+  height: 80px;
+  justify-content: end;
+  align-items: end;
 }
 
 .blog__articles .article__author div {
   display: flex;
+  height: 100%;
   flex-direction: column;
-  justify-content: start;
+  justify-content: end;
   align-items: start;
+}
+
+.blog__articles .article__header {
+  display: flex;
+  flex-direction: column;
 }
 
 .blog__divider1 {
@@ -428,6 +457,9 @@ footer {
 .blog__articles div .glide__slides__html li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -479,6 +511,9 @@ footer {
 .blog__articles div .glide__slides__css li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -530,6 +565,9 @@ footer {
 .blog__articles div .glide__slides__javascript li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -613,6 +651,9 @@ footer {
 .blog__articles div .glide__slides__reactjs li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -664,6 +705,9 @@ footer {
 .blog__articles div .glide__slides__nextjs li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -715,6 +759,9 @@ footer {
 .blog__articles div .glide__slides__laravel li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -798,6 +845,9 @@ footer {
 .blog__articles div .glide__slides__python li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -849,6 +899,9 @@ footer {
 .blog__articles div .glide__slides__java li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;
@@ -900,6 +953,9 @@ footer {
 .blog__articles div .glide__slides__php li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 100%;
   padding: 20px;
   background-color: white;

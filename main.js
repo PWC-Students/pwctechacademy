@@ -360,8 +360,10 @@ function articleMap(data, sortType) {
       (article) =>
         `
     <li class="glide__slide">
+    <div class="article__header">
     <h5> ${article.date_created} ·  ${article.read_min}</h5>
     <h1>${article.title}</h1>
+    </div>
     <div class="article__author">
     <img src=${article.author_profile} alt="profile-image"/>
     <div>
