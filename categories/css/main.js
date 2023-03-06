@@ -7,7 +7,7 @@ await fetch("../../data/data.json")
     });
 
     const popular = document.querySelector(".glide__slides__popular");
-    const html = document.querySelector(".glide__slides__html");
+    const css = document.querySelector(".glide__slides__css");
 
     // converts object into an array
 
@@ -34,7 +34,7 @@ await fetch("../../data/data.json")
         .join("");
     }
 
-    const filteredData = data.html.articles.filter(
+    const filteredData = data.css.articles.filter(
       (item) => item.popularity >= 4.0 && item.popularity <= 5.0
     );
 
@@ -44,8 +44,8 @@ await fetch("../../data/data.json")
     );
 
     articleMap(
-      html,
-      data.html.articles.sort(
+      css,
+      data.css.articles.sort(
         (a, b) => new Date(b.date_created) - new Date(a.date_created)
       )
     );

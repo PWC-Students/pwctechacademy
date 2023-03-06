@@ -373,7 +373,7 @@ footer {
   row-gap: 30px;
 }
 
-.blog__articles .glide__slides__html {
+.blog__articles .glide__slides__css {
   display: flex;
   list-style: none;
   margin: 0;
@@ -386,11 +386,11 @@ footer {
   flex-wrap: wrap;
 }
 
-.blog__articles .glide__slides__html:active {
+.blog__articles .glide__slides__css:active {
   cursor: grabbing;
 }
 
-.blog__articles .glide__slides__html li {
+.blog__articles .glide__slides__css li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(97% / 3);
   display: flex;
@@ -407,7 +407,7 @@ footer {
   overflow: hidden;
 }
 
-.blog__articles .glide__slides__html li h1 {
+.blog__articles .glide__slides__css li h1 {
   font-size: 18px;
   padding: 14px 0 0 0;
   overflow: hidden;
@@ -415,16 +415,16 @@ footer {
   white-space: normal;
 }
 
-.blog__articles .glide__slides__html li h1:hover {
+.blog__articles .glide__slides__css li h1:hover {
   color: #c20b0d;
 }
 
-.blog__articles .glide__slides__html li h5 {
+.blog__articles .glide__slides__css li h5 {
   color: #7d8285;
   margin: 0;
 }
 
-.blog__articles .glide__slides__html li p {
+.blog__articles .glide__slides__css li p {
   color: #7d8285;
 }
 
@@ -707,20 +707,20 @@ footer {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__html {
+  .blog__articles .glide__slides__css {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     row-gap: 0;
   }
 
-  .blog__articles .glide__slides__html li {
+  .blog__articles .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(100% / 1);
     height: 250px;
   }
 
-  .blog__articles.glide__slides__html li h1 {
+  .blog__articles.glide__slides__css li h1 {
     font-size: 16px;
   }
 
@@ -980,20 +980,20 @@ footer {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__html {
+  .blog__articles .glide__slides__css {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
   }
 
-  .blog__articles .glide__slides__html li {
+  .blog__articles .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 2);
     height: 300px;
   }
 
-  .blog__articles.glide__slides__html li h1 {
+  .blog__articles.glide__slides__css li h1 {
     font-size: 16px;
   }
 
@@ -1248,20 +1248,20 @@ footer {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__html {
+  .blog__articles .glide__slides__css {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
   }
 
-  .blog__articles .glide__slides__html li {
+  .blog__articles .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 2);
     height: 300px;
   }
 
-  .blog__articles.glide__slides__html li h1 {
+  .blog__articles.glide__slides__css li h1 {
     font-size: 16px;
   }
 
@@ -1518,18 +1518,18 @@ footer {
     font-size: 16px;
   }
 
-  .blog__articles div .glide__slides__html {
+  .blog__articles div .glide__slides__css {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .blog__articles div .glide__slides__html li {
+  .blog__articles div .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 3);
   }
 
-  .blog__articles div .glide__slides__html li h1 {
+  .blog__articles div .glide__slides__css li h1 {
     font-size: 16px;
   }
 
@@ -1591,8 +1591,8 @@ footer {
   }
 
   .blog__cover img {
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
   }
 
   .blog__cover div h1 {
@@ -1785,18 +1785,18 @@ footer {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__html {
+  .blog__articles .glide__slides__css {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .blog__articles .glide__slides__html li {
+  .blog__articles .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 3);
   }
 
-  .blog__articles .glide__slides__html li h1 {
+  .blog__articles .glide__slides__css li h1 {
     font-size: 16px;
   }
 
