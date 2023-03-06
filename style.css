@@ -77,6 +77,10 @@ a {
   background: none;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* ============================================================================================ */
 
 /* the codes above are resets, do not alter */
@@ -750,6 +754,7 @@ footer {
   margin: 0;
   padding: 0;
   transition: transform 0.5s ease-in-out;
+  -webkit-overflow-scrolling: touch;
   column-gap: 16px;
   cursor: grab;
   overflow: hidden;
@@ -1230,6 +1235,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__popular {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__popular li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1237,6 +1246,10 @@ footer {
 
   .blog__articles div .glide__slides__popular li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__recent {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__recent li {
@@ -1252,6 +1265,10 @@ footer {
     height: 120px;
   }
 
+  .blog__articles div .glide__slides__html {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__html li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1261,6 +1278,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__css {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1268,6 +1289,10 @@ footer {
 
   .blog__articles div .glide__slides__css li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__javascript {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__javascript li {
@@ -1287,6 +1312,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__reactjs {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__reactjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1296,6 +1325,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__nextjs {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__nextjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1303,6 +1336,10 @@ footer {
 
   .blog__articles div .glide__slides__nextjs li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__laravel {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__laravel li {
@@ -1322,6 +1359,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__python {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__python li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1331,6 +1372,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__java {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__java li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(90% / 1);
@@ -1338,6 +1383,10 @@ footer {
 
   .blog__articles div .glide__slides__java li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__php {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__php li {
@@ -1579,6 +1628,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__popular {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__popular li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1586,6 +1639,10 @@ footer {
 
   .blog__articles div .glide__slides__popular li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__recent {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__recent li {
@@ -1601,6 +1658,10 @@ footer {
     height: 150px;
   }
 
+  .blog__articles div .glide__slides__html {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__html li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1610,6 +1671,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__css {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1617,6 +1682,10 @@ footer {
 
   .blog__articles div .glide__slides__css li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__javascript {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__javascript li {
@@ -1636,6 +1705,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__reactjs {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__reactjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1645,6 +1718,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__nextjs {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__nextjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1652,6 +1729,10 @@ footer {
 
   .blog__articles div .glide__slides__nextjs li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__laravel {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__laravel li {
@@ -1671,6 +1752,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__python {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__python li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1680,6 +1765,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__java {
+    overflow-x: scroll;
+  }
+
   .blog__articles div .glide__slides__java li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(70% / 1);
@@ -1687,6 +1776,10 @@ footer {
 
   .blog__articles div .glide__slides__java li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__php {
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__php li {
@@ -1927,6 +2020,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__popular {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__popular li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -1934,6 +2031,10 @@ footer {
 
   .blog__articles div .glide__slides__popular li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__recent {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__recent li {
@@ -1949,6 +2050,10 @@ footer {
     height: 150px;
   }
 
+  .blog__articles div .glide__slides__html {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__html li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -1958,6 +2063,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__css {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -1965,6 +2074,10 @@ footer {
 
   .blog__articles div .glide__slides__css li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__javascript {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__javascript li {
@@ -1984,6 +2097,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__reactjs {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__reactjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -1993,6 +2110,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__nextjs {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__nextjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -2000,6 +2121,10 @@ footer {
 
   .blog__articles div .glide__slides__nextjs li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__laravel {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__laravel li {
@@ -2019,6 +2144,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__python {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__python li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -2028,6 +2157,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__java {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__java li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(60% / 1);
@@ -2035,6 +2168,10 @@ footer {
 
   .blog__articles div .glide__slides__java li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__php {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__php li {
@@ -2280,6 +2417,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__popular {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__popular li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2287,6 +2428,10 @@ footer {
 
   .blog__articles div .glide__slides__popular li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__recent {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__recent li {
@@ -2302,6 +2447,10 @@ footer {
     height: 150px;
   }
 
+  .blog__articles div .glide__slides__html {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__html li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2311,6 +2460,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__css {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2318,6 +2471,10 @@ footer {
 
   .blog__articles div .glide__slides__css li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__javascript {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__javascript li {
@@ -2337,6 +2494,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__reactjs {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__reactjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2346,6 +2507,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__nextjs {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__nextjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2353,6 +2518,10 @@ footer {
 
   .blog__articles div .glide__slides__nextjs li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__laravel {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__laravel li {
@@ -2372,6 +2541,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__python {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__python li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2381,6 +2554,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__java {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__java li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2388,6 +2565,10 @@ footer {
 
   .blog__articles div .glide__slides__java li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__php {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__php li {
@@ -2632,6 +2813,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__popular {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__popular li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2639,6 +2824,10 @@ footer {
 
   .blog__articles div .glide__slides__popular li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__recent {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__recent li {
@@ -2654,6 +2843,10 @@ footer {
     height: 150px;
   }
 
+  .blog__articles div .glide__slides__html {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__html li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2663,6 +2856,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__css {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__css li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2670,6 +2867,10 @@ footer {
 
   .blog__articles div .glide__slides__css li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__javascript {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__javascript li {
@@ -2689,6 +2890,10 @@ footer {
     padding: 10px 20px 40px 10px;
   }
 
+  .blog__articles div .glide__slides__reactjs {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__reactjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2698,6 +2903,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__nextjs {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__nextjs li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2705,6 +2914,10 @@ footer {
 
   .blog__articles div .glide__slides__nextjs li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__laravel {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__laravel li {
@@ -2717,11 +2930,15 @@ footer {
   }
 
   .blog__divider3 {
-    height: 150px;
+    height: 200px;
   }
 
   .blog__languages {
     padding: 10px 20px 40px 10px;
+  }
+
+  .blog__articles div .glide__slides__python {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__python li {
@@ -2733,6 +2950,10 @@ footer {
     font-size: 16px;
   }
 
+  .blog__articles div .glide__slides__java {
+    overflow-x: hidden;
+  }
+
   .blog__articles div .glide__slides__java li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
@@ -2740,6 +2961,10 @@ footer {
 
   .blog__articles div .glide__slides__java li h1 {
     font-size: 16px;
+  }
+
+  .blog__articles div .glide__slides__php {
+    overflow-x: hidden;
   }
 
   .blog__articles div .glide__slides__php li {
