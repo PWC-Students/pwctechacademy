@@ -1192,7 +1192,7 @@ footer {
   }
 
   .blog__articles div .glide__slides__popular {
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__popular li {
@@ -1465,7 +1465,7 @@ footer {
   }
 
   .blog__articles div .glide__slides__popular {
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__popular li {
@@ -1733,7 +1733,7 @@ footer {
   }
 
   .blog__articles div .glide__slides__popular {
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 
   .blog__articles div .glide__slides__popular li {
