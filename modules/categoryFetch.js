@@ -16,6 +16,28 @@ await fetch("../../data/data.json")
     const javascriptCategory = document.querySelector(
       ".glide__slides__javascriptCategory"
     );
+    const popularReact = document.querySelector(".glide__slides__popularReact");
+    const reactCategory = document.querySelector(
+      ".glide__slides__reactCategory"
+    );
+    const popularNext = document.querySelector(".glide__slides__popularNext");
+    const nextCategory = document.querySelector(".glide__slides__nextCategory");
+    const popularLaravel = document.querySelector(
+      ".glide__slides__popularLaravel"
+    );
+    const laravelCategory = document.querySelector(
+      ".glide__slides__laravelCategory"
+    );
+    const popularPython = document.querySelector(
+      ".glide__slides__popularPython"
+    );
+    const pythonCategory = document.querySelector(
+      ".glide__slides__pythonCategory"
+    );
+    const popularJava = document.querySelector(".glide__slides__popularJava");
+    const javaCategory = document.querySelector(".glide__slides__javaCategory");
+    const popularPhp = document.querySelector(".glide__slides__popularPhp");
+    const phpCategory = document.querySelector(".glide__slides__phpCategory");
 
     function subArticleMap(data, sortType) {
       data.innerHTML = sortType
@@ -88,6 +110,102 @@ await fetch("../../data/data.json")
       subArticleMap(
         javascriptCategory,
         data.javascript.articles.sort(
+          (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        )
+      );
+    } else if (path === "/categories/reactjs/") {
+      const filteredDataReact = data.reactjs.articles.filter(
+        (item) => item.popularity >= 4.0 && item.popularity <= 5.0
+      );
+
+      subArticleMap(
+        popularReact,
+        filteredDataReact.sort((a, b) => b.popularity - a.popularity)
+      );
+
+      subArticleMap(
+        reactCategory,
+        data.reactjs.articles.sort(
+          (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        )
+      );
+    } else if (path === "/categories/nextjs/") {
+      const filteredDataNext = data.nextjs.articles.filter(
+        (item) => item.popularity >= 4.0 && item.popularity <= 5.0
+      );
+
+      subArticleMap(
+        popularNext,
+        filteredDataNext.sort((a, b) => b.popularity - a.popularity)
+      );
+
+      subArticleMap(
+        nextCategory,
+        data.nextjs.articles.sort(
+          (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        )
+      );
+    } else if (path === "/categories/laravel/") {
+      const filteredDataLaravel = data.laravel.articles.filter(
+        (item) => item.popularity >= 4.0 && item.popularity <= 5.0
+      );
+
+      subArticleMap(
+        popularLaravel,
+        filteredDataLaravel.sort((a, b) => b.popularity - a.popularity)
+      );
+
+      subArticleMap(
+        laravelCategory,
+        data.laravel.articles.sort(
+          (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        )
+      );
+    } else if (path === "/categories/python/") {
+      const filteredDataPython = data.python.articles.filter(
+        (item) => item.popularity >= 4.0 && item.popularity <= 5.0
+      );
+
+      subArticleMap(
+        popularPython,
+        filteredDataPython.sort((a, b) => b.popularity - a.popularity)
+      );
+
+      subArticleMap(
+        pythonCategory,
+        data.python.articles.sort(
+          (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        )
+      );
+    } else if (path === "/categories/java/") {
+      const filteredDataJava = data.java.articles.filter(
+        (item) => item.popularity >= 4.0 && item.popularity <= 5.0
+      );
+
+      subArticleMap(
+        popularJava,
+        filteredDataJava.sort((a, b) => b.popularity - a.popularity)
+      );
+
+      subArticleMap(
+        javaCategory,
+        data.java.articles.sort(
+          (a, b) => new Date(b.date_created) - new Date(a.date_created)
+        )
+      );
+    } else if (path === "/categories/php/") {
+      const filteredDataPhp = data.php.articles.filter(
+        (item) => item.popularity >= 4.0 && item.popularity <= 5.0
+      );
+
+      subArticleMap(
+        popularPhp,
+        filteredDataPhp.sort((a, b) => b.popularity - a.popularity)
+      );
+
+      subArticleMap(
+        phpCategory,
+        data.php.articles.sort(
           (a, b) => new Date(b.date_created) - new Date(a.date_created)
         )
       );

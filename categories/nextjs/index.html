@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/categories/css/style.css" />
+    <link rel="stylesheet" href="/categories/nextjs/style.css" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -17,7 +17,7 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
     </style>
-    <title>CSS Blogs</title>
+    <title>NextJS Blogs</title>
   </head>
   <body>
     <header></header>
@@ -28,7 +28,7 @@
           <a class="fa fa-search" href=""></a>
         </div>
         <ul>
-          <a href="/categories/html/"><li>HTML</li></a>
+          <a href="/categories/html/" onclick="key(html)"><li>HTML</li></a>
           <a href="/categories/css/"><li>CSS</li></a>
           <a href="/categories/javascript/"><li>Javascript</li></a>
           <a href="/categories/reactjs/"><li>ReactJS</li></a>
@@ -68,15 +68,15 @@
       </section>
       <section class="blog__cover">
         <div>
-          <h1>CSS</h1>
+          <h1>NextJS</h1>
           <p>
-            Explore the language we use to style an HTML document. CSS describes
-            how HTML elements should be displayed. These blogs will teach you
-            CSS from basic to advanced.
+            Explore the React Based framework with server side rendering
+            capability. It is very fast and SEO friendly. Using Next.js, you can
+            create robust react based application quite easily and test them.
           </p>
         </div>
         <img
-          src="https://i.ibb.co/1J0QmpY/css-internet-technology-website-web-style-css3-icon.png"
+          src="https://i.ibb.co/TKrJQyf/nextjs-icon-512x512-11yvtwzn.png"
           alt="blog-cover-image"
         />
       </section>
@@ -85,7 +85,7 @@
           <div class="glide">
             <div class="glide__track">
               <h1>Popular</h1>
-              <ul class="glide__slides__popularCss"></ul>
+              <ul class="glide__slides__popularNext"></ul>
             </div>
             <div class="glide__arrows">
               <button class="glide__next" onclick="slider(popular)">
@@ -97,7 +97,7 @@
       </section>
       <section class="blog__webdev">
         <div class="blog__articles">
-          <ul class="glide__slides__cssCategory"></ul>
+          <ul class="glide__slides__nextCategory"></ul>
         </div>
       </section>
       <section class="blog__pagination">
@@ -121,5 +121,5 @@
     <footer></footer>
   </body>
   <script type="module" src="/modules/categoryFetch.js"></script>
-  <script src="/categories/css/main.js"></script>
+  <script src="/categories/nextjs/main.js"></script>
 </html>

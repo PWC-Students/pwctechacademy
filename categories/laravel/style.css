@@ -284,7 +284,7 @@ footer {
   color: #c20b0d;
 }
 
-.blog__articles .glide__slides__popularHtml {
+.blog__articles .glide__slides__popularLaravel {
   display: flex;
   list-style: none;
   margin: 0;
@@ -297,11 +297,11 @@ footer {
   position: relative;
 }
 
-.blog__articles .glide__slides__popularHtml:active {
+.blog__articles .glide__slides__popularLaravel:active {
   cursor: grabbing;
 }
 
-.blog__articles div .glide__slides__popularHtml li {
+.blog__articles div .glide__slides__popularLaravel li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(98% / 3);
   display: flex;
@@ -317,7 +317,7 @@ footer {
   overflow: hidden;
 }
 
-.blog__articles div .glide__slides__popularHtml li h1 {
+.blog__articles div .glide__slides__popularLaravel li h1 {
   font-size: 18px;
   padding: 14px 0 0 0;
   overflow: hidden;
@@ -325,16 +325,16 @@ footer {
   white-space: normal;
 }
 
-.blog__articles div .glide__slides__popularHtml li h1:hover {
+.blog__articles div .glide__slides__popularLaravel li h1:hover {
   color: #c20b0d;
 }
 
-.blog__articles div .glide__slides__popularHtml li h5 {
+.blog__articles div .glide__slides__popularLaravel li h5 {
   color: #7d8285;
   margin: 0;
 }
 
-.blog__articles div .glide__slides__popularHtml li p {
+.blog__articles div .glide__slides__popularLaravel li p {
   color: #7d8285;
 }
 
@@ -373,7 +373,7 @@ footer {
   row-gap: 30px;
 }
 
-.blog__articles .glide__slides__htmlCategory {
+.blog__articles .glide__slides__laravelCategory {
   display: flex;
   list-style: none;
   margin: 0;
@@ -386,11 +386,11 @@ footer {
   flex-wrap: wrap;
 }
 
-.blog__articles .glide__slides__htmlCategory:active {
+.blog__articles .glide__slides__laravelCategory:active {
   cursor: grabbing;
 }
 
-.blog__articles .glide__slides__htmlCategory li {
+.blog__articles .glide__slides__laravelCategory li {
   /* Set the flex-basis of each item to one-third of the total width */
   flex: 0 0 calc(97% / 3);
   display: flex;
@@ -407,7 +407,7 @@ footer {
   overflow: hidden;
 }
 
-.blog__articles .glide__slides__htmlCategory li h1 {
+.blog__articles .glide__slides__laravelCategory li h1 {
   font-size: 18px;
   padding: 14px 0 0 0;
   overflow: hidden;
@@ -415,16 +415,16 @@ footer {
   white-space: normal;
 }
 
-.blog__articles .glide__slides__htmlCategory li h1:hover {
+.blog__articles .glide__slides__laravelCategory li h1:hover {
   color: #c20b0d;
 }
 
-.blog__articles .glide__slides__htmlCategory li h5 {
+.blog__articles .glide__slides__laravelCategory li h5 {
   color: #7d8285;
   margin: 0;
 }
 
-.blog__articles .glide__slides__htmlCategory li p {
+.blog__articles .glide__slides__laravelCategory li p {
   color: #7d8285;
 }
 
@@ -511,8 +511,8 @@ footer {
   }
 
   .blog__cover img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 130px;
     margin: 0 auto;
   }
 
@@ -694,33 +694,33 @@ footer {
     width: 100%;
   }
 
-  .blog__articles div .glide__slides__popularHtml {
+  .blog__articles div .glide__slides__popularLaravel {
     overflow-x: scroll;
   }
 
-  .blog__articles div .glide__slides__popularHtml li {
+  .blog__articles div .glide__slides__popularLaravel li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(95% / 1);
   }
 
-  .blog__articles .glide__slides__popularHtml li h1 {
+  .blog__articles .glide__slides__popularLaravel li h1 {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__htmlCategory {
+  .blog__articles .glide__slides__laravelCategory {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     row-gap: 0;
   }
 
-  .blog__articles .glide__slides__htmlCategory li {
+  .blog__articles .glide__slides__laravelCategory li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(100% / 1);
     height: 250px;
   }
 
-  .blog__articles.glide__slides__htmlCategory li h1 {
+  .blog__articles.glide__slides__laravelCategory li h1 {
     font-size: 16px;
   }
 
@@ -783,8 +783,8 @@ footer {
   }
 
   .blog__cover img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 130px;
     margin: 0;
   }
 
@@ -967,33 +967,33 @@ footer {
     width: 100%;
   }
 
-  .blog__articles div .glide__slides__popularHtml {
+  .blog__articles div .glide__slides__popularLaravel {
     overflow-x: scroll;
   }
 
-  .blog__articles div .glide__slides__popularHtml li {
+  .blog__articles div .glide__slides__popularLaravel li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(80% / 1);
   }
 
-  .blog__articles .glide__slides__popularHtml li h1 {
+  .blog__articles .glide__slides__popularLaravel li h1 {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__htmlCategory {
+  .blog__articles .glide__slides__laravelCategory {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
   }
 
-  .blog__articles .glide__slides__htmlCategory li {
+  .blog__articles .glide__slides__laravelCategory li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 2);
     height: 300px;
   }
 
-  .blog__articles.glide__slides__htmlCategory li h1 {
+  .blog__articles.glide__slides__laravelCategory li h1 {
     font-size: 16px;
   }
 
@@ -1235,33 +1235,33 @@ footer {
     padding: 0;
   }
 
-  .blog__articles div .glide__slides__popularHtml {
+  .blog__articles div .glide__slides__popularLaravel {
     overflow-x: scroll;
   }
 
-  .blog__articles div .glide__slides__popularHtml li {
+  .blog__articles div .glide__slides__popularLaravel li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(100% / 2);
   }
 
-  .blog__articles .glide__slides__popularHtml li h1 {
+  .blog__articles .glide__slides__popularLaravel li h1 {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__htmlCategory {
+  .blog__articles .glide__slides__laravelCategory {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
   }
 
-  .blog__articles .glide__slides__htmlCategory li {
+  .blog__articles .glide__slides__laravelCategory li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 2);
     height: 300px;
   }
 
-  .blog__articles.glide__slides__htmlCategory li h1 {
+  .blog__articles.glide__slides__laravelCategory li h1 {
     font-size: 16px;
   }
 
@@ -1505,31 +1505,31 @@ footer {
     width: 100%;
   }
 
-  .blog__articles div .glide__slides__popularHtml {
+  .blog__articles div .glide__slides__popularLaravel {
     overflow-x: hidden;
   }
 
-  .blog__articles div .glide__slides__popularHtml li {
+  .blog__articles div .glide__slides__popularLaravel li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(100% / 2);
   }
 
-  .blog__articles div .glide__slides__popularHtml li h1 {
+  .blog__articles div .glide__slides__popularLaravel li h1 {
     font-size: 16px;
   }
 
-  .blog__articles div .glide__slides__htmlCategory {
+  .blog__articles div .glide__slides__laravelCategory {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .blog__articles div .glide__slides__htmlCategory li {
+  .blog__articles div .glide__slides__laravelCategory li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 3);
   }
 
-  .blog__articles div .glide__slides__htmlCategory li h1 {
+  .blog__articles div .glide__slides__laravelCategory li h1 {
     font-size: 16px;
   }
 
@@ -1588,6 +1588,7 @@ footer {
     justify-content: start;
     align-items: start;
     text-align: start;
+    margin-right: 100px;
   }
 
   .blog__cover img {
@@ -1602,6 +1603,7 @@ footer {
 
   .blog__cover div p {
     display: flex;
+    width: 100%;
   }
 
   .blog__navigation {
@@ -1772,31 +1774,31 @@ footer {
     width: 100%;
   }
 
-  .blog__articles div .glide__slides__popularHtml {
+  .blog__articles div .glide__slides__popularLaravel {
     overflow-x: hidden;
   }
 
-  .blog__articles div .glide__slides__popularHtml li {
+  .blog__articles div .glide__slides__popularLaravel li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(98% / 3);
   }
 
-  .blog__articles div .glide__slides__popularHtml li h1 {
+  .blog__articles div .glide__slides__popularLaravel li h1 {
     font-size: 16px;
   }
 
-  .blog__articles .glide__slides__htmlCategory {
+  .blog__articles .glide__slides__laravelCategory {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .blog__articles .glide__slides__htmlCategory li {
+  .blog__articles .glide__slides__laravelCategory li {
     /* Set the flex-basis of each item to one-third of the total width */
     flex: 0 0 calc(97% / 3);
   }
 
-  .blog__articles .glide__slides__htmlCategory li h1 {
+  .blog__articles .glide__slides__laravelCategory li h1 {
     font-size: 16px;
   }
 

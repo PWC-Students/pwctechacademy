@@ -511,8 +511,8 @@ footer {
   }
 
   .blog__cover img {
-    width: 120px;
-    height: 120px;
+    width: 230px;
+    height: 130px;
     margin: 0 auto;
   }
 
@@ -783,8 +783,8 @@ footer {
   }
 
   .blog__cover img {
-    width: 150px;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     margin: 0;
   }
 
@@ -1050,7 +1050,7 @@ footer {
   }
 
   .blog__cover img {
-    width: 200px;
+    width: 350px;
     height: 200px;
   }
 
@@ -1061,7 +1061,7 @@ footer {
 
   .blog__cover div p {
     display: flex;
-    width: 90%;
+    width: 100%;
   }
 
   .blog__navigation {
@@ -1324,8 +1324,8 @@ footer {
   }
 
   .blog__cover img {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 220px;
   }
 
   .blog__cover div h1 {
