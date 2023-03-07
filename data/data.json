@@ -284,6 +284,96 @@
         "date_created": "2/28/2023",
         "read_min": "13 minutes read",
         "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "AHAHAHAHAH",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
       }
     ]
   },

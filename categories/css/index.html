@@ -28,15 +28,15 @@
           <a class="fa fa-search" href=""></a>
         </div>
         <ul>
-          <li><a href="/categories/html/index.html">HTML</a></li>
-          <li><a href="/categories/css/index.html">CSS</a></li>
-          <li><a href="">Javascript</a></li>
-          <li><a href="">ReactJS</a></li>
-          <li><a href="">NextJS</a></li>
-          <li><a href="">Laravel</a></li>
-          <li><a href="">Python</a></li>
-          <li><a href="">Java</a></li>
-          <li><a href="">PHP</a></li>
+          <a href="/categories/html/"><li>HTML</li></a>
+          <a href="/categories/css/"><li>CSS</li></a>
+          <a href="/categories/javascript/"><li>Javascript</li></a>
+          <a href="/categories/reactjs/"><li>ReactJS</li></a>
+          <a href="/categories/nextjs/"><li>NextJS</li></a>
+          <a href="/categories/laravel/"><li>Laravel</li></a>
+          <a href="/categories/python/"><li>Python</li></a>
+          <a href="/categories/java/"><li>Java</li></a>
+          <a href="/categories/php/"><li>PHP</li></a>
         </ul>
         <div>
           <button onclick="show_hide()">
@@ -54,15 +54,15 @@
             </svg>
           </button>
           <ul class="dropdown__content">
-            <li><a href="/categories/html/index.html">HTML</a></li>
-            <li><a href="/categories/css/index.html">CSS</a></li>
-            <li><a href="">Javascript</a></li>
-            <li><a href="">ReactJS</a></li>
-            <li><a href="">NextJS</a></li>
-            <li><a href="">Laravel</a></li>
-            <li><a href="">Python</a></li>
-            <li><a href="">Java</a></li>
-            <li><a href="">PHP</a></li>
+            <a href="/categories/html/"><li>HTML</li></a>
+            <a href="/categories/css/"><li>CSS</li></a>
+            <a href="/categories/html/"><li>Javascript</li></a>
+            <a href="/categories/html/"><li>ReactJS</li></a>
+            <a href="/categories/html/"><li>NextJS</li></a>
+            <a href="/categories/html/"><li>Laravel</li></a>
+            <a href="/categories/html/"><li>Python</li></a>
+            <a href="/categories/html/"><li>Java</li></a>
+            <a href="/categories/html/"><li>PHP</li></a>
           </ul>
         </div>
       </section>
@@ -85,10 +85,10 @@
           <div class="glide">
             <div class="glide__track">
               <h1>Popular</h1>
-              <ul class="glide__slides__popular"></ul>
+              <ul class="glide__slides__popularCss"></ul>
             </div>
             <div class="glide__arrows">
-              <button class="glide__next">
+              <button class="glide__next" onclick="slider(popular)">
                 <i class="fa fa-angle-right"></i>
               </button>
             </div>
@@ -97,7 +97,7 @@
       </section>
       <section class="blog__webdev">
         <div class="blog__articles">
-          <ul class="glide__slides__css"></ul>
+          <ul class="glide__slides__cssCategory"></ul>
         </div>
       </section>
       <section class="blog__pagination">
@@ -120,5 +120,6 @@
     </main>
     <footer></footer>
   </body>
-  <script type="module" src="/categories/css/main.js"></script>
+  <script type="module" src="/modules/categoryFetch.js"></script>
+  <script src="/categories/css/main.js"></script>
 </html>

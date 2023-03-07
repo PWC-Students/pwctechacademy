@@ -42,26 +42,6 @@ function dragSlide(data) {
   });
 }
 
-const popular = document.querySelector(".glide__slides__popular");
-const recent = document.querySelector(".glide__slides__recent");
-const html = document.querySelector(".glide__slides__html");
-const css = document.querySelector(".glide__slides__css");
-const javascript = document.querySelector(".glide__slides__javascript");
-const reactjs = document.querySelector(".glide__slides__reactjs");
-const nextjs = document.querySelector(".glide__slides__nextjs");
-const laravel = document.querySelector(".glide__slides__laravel");
-const python = document.querySelector(".glide__slides__python");
-const java = document.querySelector(".glide__slides__java");
-const php = document.querySelector(".glide__slides__php");
+const popular = document.querySelector(".glide__slides__popularJavascript");
 
 dragSlide(popular);
-dragSlide(recent);
-dragSlide(html);
-dragSlide(css);
-dragSlide(javascript);
-dragSlide(reactjs);
-dragSlide(nextjs);
-dragSlide(laravel);
-dragSlide(python);
-dragSlide(java);
-dragSlide(php);
