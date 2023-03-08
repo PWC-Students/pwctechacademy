@@ -511,7 +511,7 @@ footer {
   }
 
   .blog__cover img {
-    width: 130px;
+    width: 150px;
     height: 130px;
     margin: 0 auto;
   }
@@ -783,7 +783,7 @@ footer {
   }
 
   .blog__cover img {
-    width: 130px;
+    width: 150px;
     height: 130px;
     margin: 0;
   }
@@ -985,6 +985,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
+    row-gap: 30px;
   }
 
   .blog__articles .glide__slides__phpCategory li {
@@ -1252,7 +1253,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    padding: 0 20px;
+    padding: 20px 20px;
   }
 
   .blog__articles .glide__slides__phpCategory li {

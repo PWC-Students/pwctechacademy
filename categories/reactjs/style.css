@@ -985,6 +985,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     padding: 0 20px;
+    row-gap: 30px;
   }
 
   .blog__articles .glide__slides__reactCategory li {
@@ -1252,7 +1253,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    padding: 0 20px;
+    padding: 20px 20px;
+    row-gap: 30px;
   }
 
   .blog__articles .glide__slides__reactCategory li {
@@ -1791,6 +1793,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    row-gap: 30px;
   }
 
   .blog__articles .glide__slides__reactCategory li {

@@ -61,9 +61,7 @@ await fetch("../../data/data.json")
         )
         .join("");
     }
-    var path = window.location.pathname;
-
-    console.log(path);
+    let path = window.location.pathname;
 
     if (path === "/categories/html/") {
       const filteredDataHtml = data.html.articles.filter(
