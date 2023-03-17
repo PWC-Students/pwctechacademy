@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+ol,
+dl,
+p,
+h1 {
+  margin: 0;
+}
+article,
+aside,
+audio,
+footer,
+header,
+nav,
+section,
+video {
+  display: block;
+}
+
+/* ensures that older browsers will display HTML5 elements correctly */
+
+h1 {
+  font-size: 1.4rem;
+}
+/* begins to set up font sizes relative to base rem – h1 has been used as an example */
+
+p {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+/* sets hyphenation by default on paragraphs */
+
+textarea {
+  resize: vertical;
+}
+/* changes textarea resizing from "both" (UA default) to vertical only */
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+/* ============================================================================================ */
+
+/* the codes above are resets, do not alter */
+
+/* CSS naming convention */
+
+/* always start classname with (topic)__(purpose) */
+/* example: blog__details */
+
+/* ============================================================================================ */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.color__primary {
+  color: #c20b0d;
+}
+
+.color__secondary {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #c20b0d;
+  color: white;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav {
+  height: 100px;
+  background-color: bisque;
+  display: flex;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+footer {
+  height: 300px;
+  background-color: #c20b0d;
+}
+
+/* ============================================================================================ */
+
+/* Your CSS starts here */
+section{
+  background-image: url(/pwc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-box{
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 400px;
+  height: 450px;
+  background: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 85%;
+  backdrop-filter: blur(15);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+h2{
+font-size: 2rem;
+color: black;
+font-weight: 900;
+text-align: center;
+padding: 0px 10px 10px 10px;
+text-transform: uppercase;
+}
+.inputbox{
+  position: relative ;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid black;
+}
+.inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s;
+}
+input:hover ~ label,
+input:valid ~ label{
+  top: -5px;
+}
+.inputbox input{
+  width: 100%;
+  height: 50px;
+  background:transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding:0 35px 0 5px;
+  color: black;
+}
+.inputbox ion-icon{
+  position: absolute;
+  right: 8px;
+  color: black;
+  font-size: 1.2rem;
+  top: 20px;
+}
+.forget{
+  margin: -15px 0 15px;
+  font-size: .9em;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.forget label input{
+  margin-right: 3px;
+}
+.forget label a{
+  color: black;
+  text-decoration: none;
+}
+.forget label a:hover{
+  text-decoration: underline;
+}
+button{
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background:maroon;
+  border: black;
+  outline: black;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.register{
+  font-size: .9em;
+  color: black;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.register p a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.register p a:hover{
+  text-decoration: underline;
+}
+.Welcome{
+  position: absolute;
+  top: 70%;
+  right: -5%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+}
+h1{
+  font-size: 80px;
+}
+/* ============================================================================================ */
+
+/* DO NOT ALTER */
+
+/* Responsiveness */
+
+/* xs */
+@media only screen and (max-width: 0px) {
+}
+
+/* mb */
+@media only screen and (max-width: 350px) {
+}
+
+/* sm */
+@media only screen and (max-width: 600px) {
+}
+
+/* md */
+@media only screen and (max-width: 960px) {
+}
+
+/* lg */
+@media only screen and (max-width: 1280px) {
+}
+
+/* xl */
+@media only screen and (max-width: 1920px) {
+}
