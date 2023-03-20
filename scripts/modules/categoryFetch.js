@@ -1,4 +1,4 @@
-await fetch("../../data/data.json")
+await fetch("/data/data.json")
   .then((res) => res.json())
   .then((data) => {
     const articleArray = [];
