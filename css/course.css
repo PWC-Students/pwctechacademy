@@ -63,7 +63,7 @@ img {
 /* ============================================================================================ */
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .color__primary {
@@ -74,10 +74,10 @@ img {
   color: white;
 }
 
-.btn__primary{
-  color: #fff!important;
-  background-color: #c20b0d!important;
-  border-color: #c20b0d!important;
+.btn__primary {
+  color: #fff !important;
+  background-color: #c20b0d !important;
+  border-color: #c20b0d !important;
 }
 
 header {
@@ -136,10 +136,19 @@ footer {
 
 /* sm */
 @media only screen and (max-width: 600px) {
+  .popular-courses > h1,
+  .latest-courses > h1 {
+    font-size: 25px;
+    text-align: center;
+  }
 }
 
 /* md */
 @media only screen and (max-width: 960px) {
+  .popular-courses > h1,
+  .latest-courses > h1 {
+    text-align: center;
+  }
 }
 
 /* lg */
@@ -186,6 +195,11 @@ footer {
 .popular-courses,
 .latest-courses {
   margin-top: 30px;
+}
+
+.blockquote-footer {
+  background-color: #fff !important;
+  height: 100px;
 }
 
 @media (min-width: 768px) {
