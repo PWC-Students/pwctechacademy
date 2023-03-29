@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins&display=swap");
 *,
 *::before,
 *::after {
@@ -60,6 +60,28 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+::selection {
+  color: none;
+  background: none;
+}
+/* For Mozilla Firefox */
+::-moz-selection {
+  color: none;
+  background: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* ============================================================================================ */
 
 /* the codes above are resets, do not alter */
@@ -85,22 +107,79 @@ a {
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 60px;
+  height: 100px;
   width: 100%;
+  padding: 20px 0;
+  row-gap: 10px;
   background-color: #c20b0d;
   color: white;
 }
 
 header p {
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+header span {
+  color: white;
+  margin-right: 6px;
+  font-weight: bolder;
 }
 
 nav {
+  width: 100%;
   height: 100px;
-  background-color: white;
+  background-color: bisque;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  color: #c20b0d;
+}
+
+nav .logo {
+  text-decoration: none;
+  color: #c20b0d;
+  font-size: 35px;
+  margin-left: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #c20b0d;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: 0.3s ease-in;
+}
+
+nav .button {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 20px;
+  border: 1px solid white;
+  background: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav .button:hover {
+  border: 1px solid red;
+  transition: 0.3s ease-in;
 }
 
 body {
@@ -111,12 +190,51 @@ body {
 
 main {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 20px;
   height: 300px;
-  background-color: #c20b0d;
+  width: 100%;
+  align-items: center;
+  background-color: bisque;
+  padding: 40px 80px;
+  font-family: "Open Sans";
+  color: #c20b0d;
+}
+
+footer h3 {
+  font-size: 1.8rem;
+  font-weight: bolder;
+  text-transform: capitalize;
+  line-height: 3rem;
+  margin: 0;
+}
+
+footer p {
+  max-width: 800px;
+  line-height: 28px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer .socials {
+  display: flex;
+  column-gap: 10px;
+  padding: 0;
+}
+
+footer .socials a {
+  text-decoration: none;
+}
+
+footer .socials a i {
+  font-size: 1.1rem;
+  color: #c20b0d;
 }
 
 /* ============================================================================================ */
@@ -125,80 +243,70 @@ footer {
 
 /* ============================================================================================ */
 
-nav {
-  height: 100px;
-  background-color: bisque;
+.about_wrapper {
+  height: 100%;
+  width: 100%;
+  background: #b995a1;
+}
+
+.about_cover {
+  background: maroon;
+  height: 500px;
+  width: 100%;
+  position: relative;
   display: flex;
 }
 
-
-.about_wrapper{
-
-    height: 100%;
-    width: 100%;
-    background: #b995a1;
+.about_cover img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 500px;
+  max-width: none;
 }
 
-.about_cover{
-    background: maroon;
-    height: 500px;
-    width: 100%;
-    position: relative;
-    display: flex;
+.card {
+  background: maroon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 330px;
+  width: 530px;
+  padding: 0 10px;
+  row-gap: 30px;
+  margin: 100px 0 100px 100px;
 }
 
-.about_cover img{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 500px;
-    max-width: none;
+.card h1 {
+  font-size: 40px;
+  color: whitesmoke;
 }
 
-.card{
-    background: maroon;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    height: 330px;
-    width: 530px;
-    padding: 0 10px;
-    row-gap: 30px;
-    margin: 100px 0 100px 100px;
+.head_detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  row-gap: 20px;
+  position: relative;
+  padding: 50px 50px 50px;
 }
 
-.card h1{
-    font-size: 40px;
-    color: whitesmoke;
-
+.head_detail h1 {
+  font-size: 3rem;
 }
 
-
-.head_detail{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
-    row-gap: 20px;
-    position: relative;
-    padding: 50px 50px 50px;
+.head_detail p {
+  font-size: 1.3rem;
+  text-align: center;
 }
 
-.head_detail h1{
-    font-size: 3rem;
-}
-
-.head_detail p{
-    font-size: 1.3rem;
-    text-align: center;
-}
-
-.about_details{
+.about_details {
   height: 100%;
   width: 100%;
   background: white;
@@ -209,7 +317,7 @@ nav {
   row-gap: 70px;
 }
 
-.about_details .items{
+.about_details .items {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -218,41 +326,41 @@ nav {
   padding: 50px;
   padding-bottom: 0px;
 }
-.about_details .items p{
+.about_details .items p {
   line-height: 30px;
   text-align: justify;
   font-size: 20px;
   font-weight: normal;
 }
 
-.about_details .items h1{
+.about_details .items h1 {
   font-size: 35px;
   text-align: center;
 }
 
-.reach{
+.reach {
   display: flex;
   height: 100%;
   width: 100%;
   background: maroon;
   color: #fff;
-  flex-direction: column  ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 50px; 
+  padding: 50px;
 }
 
-.reach h2{
+.reach h2 {
   font-size: 50px;
   padding-bottom: 0px;
 }
-.reach p{
+.reach p {
   font-size: 20px;
   padding-bottom: 20px;
 }
 
-.reach .metrics{
+.reach .metrics {
   height: 100%;
   width: 100%;
   background: maroon;
@@ -262,7 +370,7 @@ nav {
   row-gap: 70px;
 }
 
-.reach .metrics .metric-items{
+.reach .metrics .metric-items {
   width: 30%;
   text-align: center;
   display: flex;
@@ -273,16 +381,15 @@ nav {
   padding-bottom: 0px;
 }
 
-.reach .metrics .metric-items h1{
+.reach .metrics .metric-items h1 {
   font-size: 35px;
 }
 
-.reach .metrics .metric-items p{
- 
+.reach .metrics .metric-items p {
   line-height: 30px;
   font-size: 19px;
 }
-.help{
+.help {
   width: 100%;
   height: 100%;
   display: flex;
@@ -294,59 +401,56 @@ nav {
   position: relative;
   padding: 50px 50px 50px;
 }
-.help p{
+.help p {
   font-size: 1.7rem;
 }
 
 /* Mobile responsive */
 @media screen and (max-width: 800px) {
-
-  
-  .head_detail{
+  .head_detail {
     width: auto;
     padding-top: 9px;
     row-gap: 10px;
     padding-bottom: 20px;
   }
 
-  .head_detail p{
+  .head_detail p {
     text-align: justify;
   }
-  
-  .head_detail h1{
+
+  .head_detail h1 {
     text-align: center;
   }
 
-  .reach{
+  .reach {
     padding: 0px;
     height: 100%;
     width: 100%;
-    justify-content:space-around
+    justify-content: space-around;
   }
 
-  .reach h2{
+  .reach h2 {
     font-size: 30px;
     padding-top: 0px;
     width: auto;
   }
 
-  .reach p{
+  .reach p {
     text-align: center;
-    font-size: 20px
-
+    font-size: 20px;
   }
 
-  .reach .metrics{
+  .reach .metrics {
     display: flex;
     padding: 0px;
     row-gap: 0px;
     flex-wrap: wrap;
   }
-  .reach .metrics .metric-items{
+  .reach .metrics .metric-items {
     padding: 20px;
   }
 
-  .reach .metrics .metric-items p{
+  .reach .metrics .metric-items p {
     font-size: 12.3px;
     font-weight: bolder;
     width: auto;
@@ -360,10 +464,9 @@ nav {
     flex-direction: column;
     justify-content: center;
     row-gap: 20px;
-    
   }
 
-  .about_details .items{
+  .about_details .items {
     padding-top: 0px;
     width: auto;
     padding: 0px;
@@ -371,26 +474,23 @@ nav {
     justify-content: center;
   }
 
-  .about_details .items p{
+  .about_details .items p {
     padding: 0px;
     text-align: justify;
     font-weight: 200;
   }
 
-  .about_details .items h1{
+  .about_details .items h1 {
     padding: 0px;
   }
 
+  .help {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
 
-.help{
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-  .help p{
+  .help p {
     font-size: 22px;
     text-align: justify;
   }
-  
-
 }
