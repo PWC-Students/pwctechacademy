@@ -1,0 +1,1435 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+ol,
+dl,
+p,
+h1 {
+  margin: 0;
+}
+article,
+aside,
+audio,
+footer,
+header,
+nav,
+section,
+video {
+  display: block;
+}
+
+/* ensures that older browsers will display HTML5 elements correctly */
+
+h1 {
+  font-size: 1.4rem;
+}
+/* begins to set up font sizes relative to base rem – h1 has been used as an example */
+
+p {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+/* sets hyphenation by default on paragraphs */
+
+textarea {
+  resize: vertical;
+}
+/* changes textarea resizing from "both" (UA default) to vertical only */
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ============================================================================================ */
+
+/* the codes above are resets, do not alter */
+
+/* CSS naming convention */
+
+/* always start classname with (topic)__(purpose) */
+/* example: blog__details */
+
+/* ============================================================================================ */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.color__primary {
+  color: #c20b0d;
+}
+
+.color__secondary {
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: #c20b0d;
+  color: white;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav {
+  height: 100px;
+  background-color: white;
+  display: flex;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+footer {
+  height: 300px;
+  background-color: #c20b0d;
+}
+
+/* Library css */
+
+/* type.js cursor */
+.typed-cursor {
+  font-size: 40px;
+}
+
+/* ============================================================================================ */
+
+/* Your CSS starts here */
+
+.career__container {
+  height: 100%;
+  width: 100%;
+  background: #b995a1;
+}
+
+.career__cover {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.career__cover img {
+  position: absolute;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  height: 520px;
+  max-width: none;
+}
+
+.career__cover .career__card {
+  display: none;
+}
+
+.career__card {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 300px;
+  width: 550px;
+  padding: 0 20px;
+  text-align: center;
+  row-gap: 30px;
+  margin: 100px 0 100px 100px;
+}
+
+.career__card h1 {
+  font-size: 40px;
+  color: #c20b0d;
+  text-align: center;
+}
+
+.career__card p {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.career__card .border__line {
+  width: 300px;
+  padding: 3px;
+  background-color: #c20b0d;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.career__card div {
+  display: flex;
+}
+
+.career__details {
+  height: 100%;
+  width: 100%;
+  background: white;
+  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 90px;
+}
+
+.career__details .career__items {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.career__details .career__items h1 {
+  font-size: 40px;
+}
+
+.career__details .career__items p {
+  line-height: 30px;
+}
+
+.career__details .career__items img {
+  width: 70px;
+  height: 70px;
+}
+
+.career__corevalue {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  row-gap: 20px;
+  padding: 50px 50px 100px 50px;
+  z-index: 40;
+  background-image: url("https://i.ibb.co/gPQT8Dn/parallax.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.career__corevalue h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.career__corevalue a {
+  font-weight: 700;
+  color: #5624d0;
+}
+
+.career__corevalue .career__items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  column-gap: 30px;
+  row-gap: 80px;
+  margin-top: 50px;
+  padding: 0 100px;
+  justify-content: center;
+}
+
+.career__corevalue .career__items .career__card1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  list-style: none;
+  background: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  position: relative;
+}
+
+.career__corevalue .career__items .career__card1 img {
+  width: 300px;
+  max-width: none;
+  height: 300px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.career__corevalue .career__items .career__card1 .career__details {
+  display: flex;
+  background: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.career__corevalue .career__items .career__card1 .career__overlay {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+.career__corevalue .career__items .career__card2 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  background: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.career__corevalue .career__items .career__card2 img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+
+.career__corevalue .career__items .career__card2 .career__details {
+  display: flex;
+  background: white;
+  height: 100%;
+  width: 80%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.career__corevalue .career__items .career__card3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px 40px 80px;
+  list-style: none;
+  background: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.career__corevalue .career__items .career__card3 img {
+  width: 150px;
+  height: 200px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+
+.career__corevalue .career__items .career__card3 .career__details {
+  display: flex;
+  background: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.career__corevalue .career__items .career__card4 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  list-style: none;
+  background: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.career__corevalue .career__items .career__card4 img {
+  width: 100%;
+  height: 300px;
+}
+
+.career__corevalue .career__items .career__card4 .career__details {
+  display: flex;
+  background: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.career__corevalue .career__items .career__card5 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  list-style: none;
+  background: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.career__corevalue .career__items .career__card5 img {
+  width: 100%;
+  height: 300px;
+}
+
+.career__corevalue .career__items .career__card5 .career__details {
+  display: flex;
+  background: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.career__benefits {
+  height: 100%;
+  width: 100%;
+  padding: 50px 50px 50px 50px;
+  background: white;
+  text-align: center;
+}
+
+.career__benefits h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.career__benefits .career__details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+}
+
+.career__benefits .career__details .career__items {
+  display: flex;
+  row-gap: 30px;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+
+.career__benefits .career__details .career__items h1 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.career__benefits .career__details .career__items div {
+  padding: 3px;
+  width: 230px;
+  background: #c20b0d;
+  position: absolute;
+  top: 45px;
+}
+
+.career__jointeam {
+  height: 100%;
+  width: 100%;
+  padding: 10px 100px 50px 100px;
+  background-color: #f7f9fa;
+  position: relative;
+}
+
+.career__jointeam .career__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  background: #f7f9fa;
+}
+
+.career__jointeam .career__details span {
+  color: #c20b0d;
+}
+
+.career__jointeam .career__details h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.career__jointeam .career__details p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.career__jointeam .career__endpoint {
+  padding: 20px 100px 100px 100px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.career__jointeam .career__endpoint a {
+  color: #5624d0;
+  text-decoration: underline;
+}
+
+.career__dropdown {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  row-gap: 30px;
+}
+
+.career__dropdown .career__props {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.career__dropdown .career__items {
+  height: 100%;
+  width: 100%;
+  border-top: 1.5px solid #d8d8d8;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  padding: 30px 0 0 0;
+  font-weight: bolder;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+}
+
+.career__dropdown .career__items svg {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: 0;
+  transform: rotate(-270deg);
+}
+
+.career__dropdown div {
+  display: block;
+  background-color: #f7f9fa;
+  overflow: hidden;
+}
+
+.career__dropdown div a {
+  color: #5624d0;
+  text-decoration: none;
+}
+
+.career__dropdown div .item1 {
+  display: none;
+}
+
+.career__dropdown div .item2 {
+  display: none;
+}
+
+.career__dropdown div .item3 {
+  display: none;
+}
+
+.career__dropdown div .item4 {
+  display: none;
+}
+
+.career__dropdown div .item5 {
+  display: none;
+}
+
+.career__dropdown div .item6 {
+  display: none;
+}
+
+.career__dropdown div .item7 {
+  display: none;
+}
+
+.career__dropdown div .item8 {
+  display: none;
+}
+
+.career__dropdown div .item9 {
+  display: none;
+}
+
+/* ============================================================================================ */
+
+/* DO NOT ALTER */
+
+/* Responsiveness */
+
+@media only screen and (min-width: 0px) {
+  .career__details .type-animation2 {
+    font-size: 25px;
+  }
+
+  .typed-cursor {
+    font-size: 25px;
+  }
+
+  .career__cover {
+    height: 400px;
+  }
+
+  .career__cover img {
+    height: 400px;
+    right: 5%;
+  }
+
+  .career__details .career__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .career__header h1 {
+    font-size: 40px;
+    color: #c20b0d;
+    text-align: center;
+  }
+
+  .career__header p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .career__header .border__line {
+    width: 300px;
+    padding: 3px;
+    background-color: #c20b0d;
+    align-self: center;
+    margin-top: 40px;
+  }
+
+  .career__header div {
+    display: flex;
+  }
+
+  .career__details {
+    padding: 50px 30px 50px 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .career__details .career__items {
+    width: 100%;
+  }
+
+  .career__details .career__items h1 {
+    font-size: 34px;
+  }
+
+  .career__details .career__items svg {
+    width: 70px;
+  }
+
+  .career__corevalue .career__items {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card1 {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card2 {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card3 {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card4 {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card5 {
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__benefits {
+    padding: 50px 20px;
+  }
+
+  .career__benefits h1 {
+    font-size: 30px;
+  }
+
+  .career__benefits .career__details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career__benefits .career__details .career__items {
+    flex-direction: column;
+  }
+  .career__benefits .career__details .career__items h1 {
+    font-size: 24px;
+  }
+
+  .career__benefits .career__details .career__items div {
+    width: 200px;
+    top: 40px;
+  }
+
+  .career__jointeam {
+    padding: 0;
+  }
+
+  .career__jointeam .career__details {
+    text-align: center;
+  }
+
+  .career__jointeam .career__details h1 {
+    font-size: 34px;
+  }
+
+  .career__jointeam .career__details p {
+    font-size: 18px;
+  }
+
+  .career__jointeam .career__dropdown {
+    padding: 30px 20px 50px 20px;
+  }
+
+  .career__jointeam .career__dropdown .career__items h1 {
+    font-size: 16px;
+  }
+
+  .career__dropdown div a {
+    font-size: 14px;
+  }
+
+  .career__jointeam .career__endpoint {
+    padding: 30px 20px;
+  }
+}
+
+/* Mobile devices */
+@media only screen and (min-width: 640px) {
+  .career__details .type-animation2 {
+    font-size: 35px;
+  }
+
+  .typed-cursor {
+    font-size: 35px;
+  }
+
+  .career__cover {
+    height: 400px;
+  }
+
+  .career__cover img {
+    height: 400px;
+    right: 16%;
+  }
+
+  .career__details .career__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .career__header h1 {
+    font-size: 50px;
+    color: #c20b0d;
+    text-align: center;
+  }
+
+  .career__header p {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .career__header .border__line {
+    width: 300px;
+    padding: 3px;
+    background-color: #c20b0d;
+    align-self: center;
+    margin-top: 40px;
+  }
+
+  .career__header div {
+    display: flex;
+  }
+
+  .career__details {
+    padding: 50px 30px 50px 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .career__details .career__items {
+    width: 100%;
+  }
+
+  .career__details .career__items h1 {
+    font-size: 40px;
+  }
+
+  .career__details .career__items svg {
+    width: 70px;
+  }
+
+  .career__corevalue .career__items {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .career__corevalue .career__items .career__card1 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card3 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card4 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card5 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__benefits {
+    padding: 50px 20px;
+  }
+
+  .career__benefits h1 {
+    font-size: 30px;
+  }
+
+  .career__benefits .career__details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career__benefits .career__details .career__items {
+    flex-direction: column;
+  }
+  .career__benefits .career__details .career__items h1 {
+    font-size: 24px;
+  }
+
+  .career__benefits .career__details .career__items div {
+    width: 200px;
+    top: 40px;
+  }
+
+  .career__jointeam {
+    padding: 0;
+  }
+
+  .career__jointeam .career__details {
+    text-align: center;
+  }
+
+  .career__jointeam .career__details h1 {
+    font-size: 34px;
+  }
+
+  .career__jointeam .career__details p {
+    font-size: 18px;
+  }
+
+  .career__jointeam .career__dropdown {
+    padding: 30px 30px 50px 30px;
+  }
+
+  .career__jointeam .career__dropdown .career__items h1 {
+    font-size: 16px;
+  }
+
+  .career__dropdown div a {
+    font-size: 14px;
+  }
+
+  .career__jointeam .career__endpoint {
+    padding: 30px 20px;
+  }
+}
+
+/* iPads, Tablets */
+@media only screen and (min-width: 768px) {
+  .career__details .type-animation2 {
+    font-size: 35px;
+  }
+
+  .typed-cursor {
+    font-size: 35px;
+  }
+
+  .career__cover {
+    height: 400px;
+  }
+
+  .career__cover img {
+    height: 400px;
+    right: 30%;
+  }
+
+  .career__details .career__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .career__header h1 {
+    font-size: 50px;
+    color: #c20b0d;
+    text-align: center;
+  }
+
+  .career__header p {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .career__header .border__line {
+    width: 300px;
+    padding: 3px;
+    background-color: #c20b0d;
+    align-self: center;
+    margin-top: 40px;
+  }
+
+  .career__header div {
+    display: flex;
+  }
+
+  .career__details {
+    padding: 50px 70px 50px 70px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .career__details .career__items {
+    width: 100%;
+  }
+
+  .career__details .career__items h1 {
+    font-size: 40px;
+  }
+
+  .career__details .career__items svg {
+    width: 70px;
+  }
+
+  .career__corevalue .career__items {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .career__corevalue .career__items .career__card1 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card3 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card4 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card5 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__benefits {
+    padding: 50px 20px;
+  }
+
+  .career__benefits h1 {
+    font-size: 36px;
+  }
+
+  .career__benefits .career__details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career__benefits .career__details .career__items {
+    flex-direction: column;
+  }
+  .career__benefits .career__details .career__items h1 {
+    font-size: 30px;
+  }
+
+  .career__benefits .career__details .career__items div {
+    width: 200px;
+    top: 46px;
+  }
+
+  .career__jointeam {
+    padding: 0;
+  }
+
+  .career__jointeam .career__details {
+    text-align: center;
+  }
+
+  .career__jointeam .career__details h1 {
+    font-size: 34px;
+  }
+
+  .career__jointeam .career__details p {
+    font-size: 18px;
+  }
+
+  .career__jointeam .career__dropdown {
+    padding: 30px 50px 50px 50px;
+  }
+
+  .career__jointeam .career__dropdown .career__items h1 {
+    font-size: 16px;
+  }
+
+  .career__dropdown div a {
+    font-size: 14px;
+  }
+
+  .career__jointeam .career__endpoint {
+    padding: 30px 50px;
+  }
+}
+
+/* small screens, laptops */
+
+@media only screen and (min-width: 1024px) {
+  .career__details .type-animation2 {
+    font-size: 35px;
+  }
+
+  .typed-cursor {
+    font-size: 35px;
+  }
+
+  .career__cover {
+    height: 400px;
+  }
+
+  .career__cover img {
+    max-width: max-content;
+    height: 400px;
+    right: 50px;
+  }
+
+  .career__cover .career__card {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    margin: 50px 0 100px 40px;
+  }
+
+  .career__card h1 {
+    font-size: 34px;
+  }
+
+  .career__card p {
+    font-size: 18px;
+  }
+
+  .career__details .career__header {
+    display: none;
+  }
+
+  .career__details {
+    display: flex;
+    padding: 50px 40px 50px 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .career__details .career__items {
+    width: 48%;
+  }
+
+  .career__details .career__items h1 {
+    font-size: 40px;
+  }
+
+  .career__details .career__items svg {
+    width: 70px;
+  }
+
+  .career__corevalue .career__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .career__corevalue .career__items .career__card1 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card2 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+  }
+
+  .career__corevalue .career__items .career__card3 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0 38px 0;
+  }
+
+  .career__corevalue .career__items .career__card4 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card5 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__benefits {
+    padding: 50px 100px;
+  }
+
+  .career__benefits h1 {
+    font-size: 36px;
+  }
+
+  .career__benefits .career__details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 80px 0;
+    column-gap: 0px;
+  }
+
+  .career__benefits .career__details .career__items {
+    width: 45%;
+    flex-direction: column;
+  }
+  .career__benefits .career__details .career__items h1 {
+    font-size: 30px;
+  }
+
+  .career__benefits .career__details .career__items div {
+    width: 200px;
+    top: 46px;
+  }
+
+  .career__jointeam {
+    padding: 0;
+  }
+
+  .career__jointeam .career__details {
+    text-align: center;
+  }
+
+  .career__jointeam .career__details h1 {
+    font-size: 34px;
+  }
+
+  .career__jointeam .career__details p {
+    font-size: 18px;
+  }
+
+  .career__jointeam .career__dropdown {
+    padding: 30px 70px 50px 70px;
+  }
+
+  .career__jointeam .career__dropdown .career__items h1 {
+    font-size: 20px;
+  }
+
+  .career__dropdown div a {
+    font-size: 16px;
+  }
+
+  .career__jointeam .career__endpoint {
+    padding: 30px 70px;
+  }
+}
+
+/* Extra large screens, TV * this one is not always used. */
+
+@media only screen and (min-width: 1280px) {
+  .career__details .type-animation2 {
+    font-size: 35px;
+  }
+
+  .typed-cursor {
+    font-size: 35px;
+  }
+
+  .career__cover {
+    height: 400px;
+  }
+
+  .career__cover img {
+    max-width: max-content;
+    height: 400px;
+    right: 150px;
+  }
+
+  .career__cover .career__card {
+    display: flex;
+    height: 300px;
+    width: 500px;
+    margin: 50px 0 100px 100px;
+  }
+
+  .career__card h1 {
+    font-size: 34px;
+  }
+
+  .career__card p {
+    font-size: 18px;
+  }
+
+  .career__details .career__header {
+    display: none;
+  }
+
+  .career__details {
+    display: flex;
+    padding: 50px 60px 50px 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .career__details .career__items {
+    width: 48%;
+  }
+
+  .career__details .career__items h1 {
+    font-size: 40px;
+  }
+
+  .career__details .career__items svg {
+    width: 70px;
+  }
+
+  .career__corevalue {
+    padding: 50px 100px 100px 100px;
+  }
+
+  .career__corevalue .career__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .career__corevalue .career__items .career__card1 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card2 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+  }
+
+  .career__corevalue .career__items .career__card3 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0 38px 0;
+  }
+
+  .career__corevalue .career__items .career__card4 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__corevalue .career__items .career__card5 {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .career__benefits {
+    padding: 50px 100px;
+  }
+
+  .career__benefits h1 {
+    font-size: 36px;
+  }
+
+  .career__benefits .career__details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 80px 0;
+    column-gap: 0px;
+  }
+
+  .career__benefits .career__details .career__items {
+    width: 45%;
+    flex-direction: column;
+  }
+  .career__benefits .career__details .career__items h1 {
+    font-size: 30px;
+  }
+
+  .career__benefits .career__details .career__items div {
+    width: 200px;
+    top: 46px;
+  }
+
+  .career__jointeam {
+    padding: 0;
+  }
+
+  .career__jointeam .career__details {
+    text-align: center;
+  }
+
+  .career__jointeam .career__details h1 {
+    font-size: 34px;
+  }
+
+  .career__jointeam .career__details p {
+    font-size: 18px;
+  }
+
+  .career__jointeam .career__dropdown {
+    padding: 30px 70px 50px 70px;
+  }
+
+  .career__jointeam .career__dropdown .career__items h1 {
+    font-size: 20px;
+  }
+
+  .career__dropdown div a {
+    font-size: 16px;
+  }
+
+  .career__jointeam .career__endpoint {
+    padding: 30px 70px;
+  }
+}
+
+/* xl */
+@media only screen and (min-width: 1920px) {
+  .career__header {
+    display: none;
+  }
+}
