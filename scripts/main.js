@@ -13,8 +13,5 @@ function unToggleHamburger(e) {
   sidebar.classList.remove("active");
 }
 
-navToggle.addEventListener('click', toggleHamburger)
-navToggle2.addEventListener('click', unToggleHamburger)
-navToggle2.addEventListener('click', unToggleHamburger)
 navToggle.addEventListener("click", toggleHamburger);
 navToggle2.addEventListener("click", unToggleHamburger);
