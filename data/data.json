@@ -1,0 +1,1136 @@
+{
+  "html": {
+    "id": "category1",
+    "title": "HTML",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "Semantic HTML: What It Is and How to Use It Correctly",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.3"
+      },
+      {
+        "id": "article2",
+        "title": "A Beginners Guide to HTML5 - PWCTechademy Blog",
+        "description": "This is sample data #1",
+        "author": "Christian James Regner",
+        "author_profile": "https://i.ibb.co/tZpq1sh/Regner.jpg",
+        "date_created": "2/27/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article3",
+        "title": "Why Do I Need to Use Semantic HTML Tags?",
+        "description": "This is sample data #1",
+        "author": "Ralf Jones Nomos",
+        "author_profile": "https://i.ibb.co/mtqbh4f/ralf.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article4",
+        "title": "HTML For Beginners The Easy Way: Start Learning HTML & CSS Today",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/3/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "HTML Web Forms Tutorial For Coding Beginners",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/12/2023",
+        "read_min": "11 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "8 Invalid HTML Elements You Should Stop Using Immediately",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "3/1/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "Every Way Possible To Embed Modern Media With HTML Code",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/25/2023",
+        "read_min": "5 minutes read",
+        "popularity": "3.4"
+      },
+      {
+        "id": "article8",
+        "title": "Lists Bring Order To Web Pages: Here’s The HTML Code To Create Them",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "9 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "The HTML Cheat Sheet You'll Get Addicted To",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "3/7/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article10",
+        "title": "HTML Tables: Find Out When To Use Them (And When To Avoid)",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "Web Images: Best Practices and HTML Code In One Useful Guide",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "What On Earth Is Semantic Markup? (And Why Should You Learn To Write It)",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "css": {
+    "id": "category2",
+    "title": "CSS",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "A Beginners Guide to CSS - PWCTechademy Blog",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "1.5"
+      },
+      {
+        "id": "article2",
+        "title": "The CSS Handbook: A Handy Guide to CSS for Developers",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Partial CSS Guide for Busy Developers - PWCTechademy Blog",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "Animating CSS Grid (How To + Examples)",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": ":has is an unforgiving selector",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "6 Common SVG Fails (and How to Fix Them)",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "Ease-y Breezy: A Primer on Easing Functions",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "How to Use CSS Grid for Sticky Headers and Footers",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "Gradient Borders in CSS",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "Learn the Very Basics of CSS in One Minute",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "How to Create a CSS External Style Sheet",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "How to Create a Horizontal Navigation Menu with CSS",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "javascript": {
+    "id": "category3",
+    "title": "Javascript",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "How to Use Map, Filter, and Reduce in JavaScript",
+        "description": "This is sample data #1",
+        "author": "Christian James Regner",
+        "author_profile": "https://i.ibb.co/tZpq1sh/Regner.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Timing Events in JavaScript: setTimeout and setInterval",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "What is the JavaScript ternary operator?",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "What is the difference between Target and currentTarget in the event context?",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "What is a spread operator?",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "How to Send and Receive JSON Data to and from the Server",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "How to Open Google Chrome's JavaScript Console",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "Why JavaScript is called JavaScript",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "3/5/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.9"
+      },
+      {
+        "id": "article10",
+        "title": "How to Learn JavaScript on Your Own",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "8 Tips and Tricks For JavaScript Developers",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "Pseudo-Elements in JavaScript",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "reactjs": {
+    "id": "category4",
+    "title": "ReactJS",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "Learn React 18: The Complete React Developer Guide",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "Learn React 18: Getting Started With State",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Learn React 18: Passing Data With Props",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "How To Use React With Apollo GraphQL",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "How To Loop Inside JSX Syntax In React 16",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "How To Set Focus On Input After Render In React 16",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "How To Create Components Dynamically In React 16",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "How To Use React.js Component Lifecycle Methods",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "Everything About React State Management",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "How to Deploy React App on Netlify Using Github?",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "How Much Does it Cost to Hire React Developer?",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "How to Deploy React App on Heroku?",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "nextjs": {
+    "id": "category5",
+    "title": "NextJS",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "A Complete Beginner's Guide to Next.js",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "NextJs Tutorial: Getting Started with ReactJS Framework",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Next.js Quick Start Guide - Packt",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "Dynamic loading of client-side script",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "SEO Tips for Next.js sites - PWCTechademy",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "A Glance at TurboPack",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "Next 13 - A closer look at data fetching",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "Next 13 - Server and Client components",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "NextJS add lang attribute to HTML tag",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "NextJS add lang attribute to HTML tag",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "Next.js Supabase adding a GitHub login",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "Add a loading state to our Next.js Supabase app",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "laravel": {
+    "id": "category6",
+    "title": "Laravel",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "How to Build a REST API With Laravel",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "Building Web Applications From Scratch With Laravel",
+        "description": "This is sample data #1",
+        "author": "Christian James Regner",
+        "author_profile": "https://i.ibb.co/tZpq1sh/Regner.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Set Up an OAuth2 Server Using Passport in Laravel",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "Single Method Accessors and Mutators in Laravel",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "How to be an Intermediate Laravel Developer",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "Send Email With Attachment In Laravel",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "VS Code extensions for Laravel Developers",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "Laravel Tips & Trickes 2022 | Easy To Use | Mind Blowing",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "20 Useful Laravel Tips",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "6 Useful Tips To Boost Your Laravel Code",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "Top 10 Awesome Laravel Tips You Should Know in 2023",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "Top 21 Laravel Eloquent Tips and Tricks - PWCTechademy",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "python": {
+    "id": "category7",
+    "title": "Python",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "How to Begin With Test-Driven Development in Python",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "Image Enhancement in Python",
+        "description": "This is sample data #1",
+        "author": "Christian James Regner",
+        "author_profile": "https://i.ibb.co/tZpq1sh/Regner.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Using the Requests Module in Python",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "100 Helpful Python Tips You Can Learn Before Finishing Your Morning Coffee",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "Essential Python Tips And Tricks For Programmers",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "30 Cool Python Tricks For Better Code With Examples",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "11 Beginner Tips for Learning Python Programming",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "Useful Python Tips and Tricks Every Programmer Should Know",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "22 Python Tricks with Code Examples for Efficient Coding - PWCTechademy",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "13 Python Tricks and Tips [in 2023] - Impress Your Friends",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "Python Programming Tips to Help You Level Up Your Code",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "10 Advanced Python Tricks To Write Faster, Cleaner Code",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "java": {
+    "id": "category8",
+    "title": "Java",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "Java Tutorial for Beginners: Learn Core Java Programming",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "Java Tutorial for Beginners - PWCTechademy",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "Java Programming : A Complete Guide",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "5 Important tips to learn Java faster - PWCTechademy",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "80 Best Java Blogs and Websites To Follow in 2023",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "Java Tutorial | Learn Java Programming - PWCTechademy",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "Java Tutorial for Beginners",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "Java in Visual Studio Code",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "Java in Visual Studio Code",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "Top 7 Tricks and Tips to Boost Your Java Learning",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "Tips to Improve Performance in Java",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "Tips for using Java securely",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  },
+  "php": {
+    "id": "category9",
+    "title": "Java",
+    "articles": [
+      {
+        "id": "article1",
+        "title": "How to Upload a File in PHP (With an Example)",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "3/2/2023",
+        "read_min": "10 minutes read",
+        "popularity": "4.5"
+      },
+      {
+        "id": "article2",
+        "title": "How to Use Sessions and Session Variables in PHP",
+        "description": "This is sample data #1",
+        "author": "Christian James Regner",
+        "author_profile": "https://i.ibb.co/tZpq1sh/Regner.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "8 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article3",
+        "title": "How to Use PHP in HTML",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/28/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article4",
+        "title": "20 Awesome PHP Libraries For Early 2023",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.1"
+      },
+      {
+        "id": "article5",
+        "title": "Create a Simple URL Shortener With 10 Lines of PHP",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.7"
+      },
+      {
+        "id": "article6",
+        "title": "Making a Super Simple Registration System With PHP and MySQL",
+        "description": "This is sample data #1",
+        "author": "Lanz Miguel",
+        "author_profile": "https://i.ibb.co/Jc6x0d8/Lanz.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article7",
+        "title": "Tutorial: Let's Build a Lightweight Blog System (part 1)",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "3.0"
+      },
+      {
+        "id": "article8",
+        "title": "24 Cool PHP Libraries You Should Know About",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article9",
+        "title": "Tutorial: Let's Build a Lightweight Blog System (part 2)",
+        "description": "This is sample data #1",
+        "author": "Ajnan Ash Abpi",
+        "author_profile": "https://i.ibb.co/thBdmmP/ajnan.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "4.0"
+      },
+      {
+        "id": "article10",
+        "title": "Top 8 Practical Applications of PHP and Steps to Carve a Career",
+        "description": "This is sample data #1",
+        "author": "Jayson Polentinos",
+        "author_profile": "https://i.ibb.co/hMm99vW/jayson.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "5.0"
+      },
+      {
+        "id": "article11",
+        "title": "10 Interesting Articles Every PHP Developer Should Read",
+        "description": "This is sample data #1",
+        "author": "Loy Flavio",
+        "author_profile": "https://i.ibb.co/Zd7d34k/Loy.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      },
+      {
+        "id": "article12",
+        "title": "PHP: The Right Way",
+        "description": "This is sample data #1",
+        "author": "Keanu John Lariosa",
+        "author_profile": "https://i.ibb.co/FqRsSTg/profile-img1.jpg",
+        "date_created": "2/23/2023",
+        "read_min": "13 minutes read",
+        "popularity": "2.0"
+      }
+    ]
+  }
+}
