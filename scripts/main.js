@@ -14,8 +14,5 @@ function unToggleHamburger(e) {
 }
 
 navToggle.addEventListener('click', toggleHamburger)
-<<<<<<< HEAD
 navToggle2.addEventListener('click', unToggleHamburger)
-=======
 navToggle2.addEventListener('click', unToggleHamburger)
->>>>>>> 30ce70e1fdb05dfa703120b9d3c5227db4eaf1c3

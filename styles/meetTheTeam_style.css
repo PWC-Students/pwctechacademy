@@ -424,14 +424,11 @@ main h3 {
 
 /* xs */
 @media only screen and (min-width: 0px) {
-<<<<<<< HEAD
-=======
   main {
     width: 100%;
     height: 3050px;
   }
 
->>>>>>> 30ce70e1fdb05dfa703120b9d3c5227db4eaf1c3
   header {
     display: flex;
     flex-direction: column;
@@ -453,11 +450,9 @@ main h3 {
   nav div {
     display: flex;
     justify-content: end;
-<<<<<<< HEAD
     align-items: end;
-=======
     align-items: center;
->>>>>>> 30ce70e1fdb05dfa703120b9d3c5227db4eaf1c3
+
   }
 
   nav div ul {
@@ -492,11 +487,9 @@ main h3 {
   .sidebar ul {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     row-gap: 60px;
-=======
     row-gap: 50px;
->>>>>>> 30ce70e1fdb05dfa703120b9d3c5227db4eaf1c3
+
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -563,14 +556,11 @@ main h3 {
 }
 
 @media only screen and (min-width: 1024px) {
-<<<<<<< HEAD
-=======
   main {
     width: 100%;
     height: 1200px;
   }
 
->>>>>>> 30ce70e1fdb05dfa703120b9d3c5227db4eaf1c3
   .nav-toggle {
     display: none;
     flex-direction: column;
