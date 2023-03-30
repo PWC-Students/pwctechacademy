@@ -30,81 +30,115 @@
     </header>
     <nav>
       <a href="#" class="logo">PWCTechademy</a>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about_us.html">About</a></li>
-        <li><a href="blogs.html">Blog</a></li>
-        <li><a href="careers.html">Career</a></li>
-        <li><a href="course.html">Course</a></li>
-        <li><a href="checkout.html">Checkout</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-      </ul>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About</a></li>
+          <li><a href="blogs.html">Blog</a></li>
+          <li><a href="careers.html">Career</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="loginandregister.html">Login</a></li>
+        </ul>
+        <a class="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+      </div>
     </nav>
-    <div class="container">
-      <input type="checkbox" id="flip" />
-      <div class="cover">
-        <div class="front">
-          <img src="/images/img1.jpg" alt="" />
+    <main>
+      <div class="sidebar">
+        <a class="nav-toggle2">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About</a></li>
+          <li><a href="blogs.html">Blog</a></li>
+          <li><a href="careers.html">Career</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="checkout.html">Checkout</a></li>
+          <li><a href="loginandregister.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <input type="checkbox" id="flip" />
+        <div class="cover">
+          <div class="front">
+            <img src="/images/img1.jpg" alt="" />
+          </div>
+        </div>
+        <div>
+          <form action="#">
+            <div class="form-content">
+              <div class="login-form">
+                <div class="title">Login</div>
+                <div class="input-boxes">
+                  <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input
+                      type="text"
+                      placeholder="Enter your email"
+                      required
+                    />
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input
+                      type="password"
+                      placeholder="Enter your password"
+                      required
+                    />
+                  </div>
+                  <div class="text"><a href="#">Forgot password?</a></div>
+                  <div class="button input-box">
+                    <input type="submit" value="Submit" />
+                  </div>
+                  <div class="text sign-up-text">
+                    Don't have an account? <label for="flip">Sign here</label>
+                  </div>
+                </div>
+              </div>
+              <div class="signup-form">
+                <div class="title">Signup</div>
+                <div class="input-boxes">
+                  <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Enter your name" required />
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input
+                      type="text"
+                      placeholder="Enter your email"
+                      required
+                    />
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input
+                      type="password"
+                      placeholder="Enter your password"
+                      required
+                    />
+                  </div>
+                  <div class="button input-box">
+                    <input type="submit" value="Submit" />
+                  </div>
+                  <div class="text sign-up-text">
+                    Already have an account?
+                    <label for="flip">Login here</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-      <div>
-        <form action="#">
-          <div class="form-content">
-            <div class="login-form">
-              <div class="title">Login</div>
-              <div class="input-boxes">
-                <div class="input-box">
-                  <i class="fas fa-envelope"></i>
-                  <input type="text" placeholder="Enter your email" required />
-                </div>
-                <div class="input-box">
-                  <i class="fas fa-lock"></i>
-                  <input
-                    type="password"
-                    placeholder="Enter your password"
-                    required
-                  />
-                </div>
-                <div class="text"><a href="#">Forgot password?</a></div>
-                <div class="button input-box">
-                  <input type="submit" value="Submit" />
-                </div>
-                <div class="text sign-up-text">
-                  Don't have an account? <label for="flip">Sign here</label>
-                </div>
-              </div>
-            </div>
-            <div class="signup-form">
-              <div class="title">Signup</div>
-              <div class="input-boxes">
-                <div class="input-box">
-                  <i class="fas fa-user"></i>
-                  <input type="text" placeholder="Enter your name" required />
-                </div>
-                <div class="input-box">
-                  <i class="fas fa-envelope"></i>
-                  <input type="text" placeholder="Enter your email" required />
-                </div>
-                <div class="input-box">
-                  <i class="fas fa-lock"></i>
-                  <input
-                    type="password"
-                    placeholder="Enter your password"
-                    required
-                  />
-                </div>
-                <div class="button input-box">
-                  <input type="submit" value="Submit" />
-                </div>
-                <div class="text sign-up-text">
-                  Already have an account? <label for="flip">Login here</label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
+    </main>
     <footer>
       <h3>PWCTechademy</h3>
       <p>
@@ -133,5 +167,6 @@
         <p>&copy;2023 PWCTechademy.</p>
       </div>
     </footer>
+    <script src="/scripts/main.js"></script>
   </body>
 </html>

@@ -124,27 +124,28 @@ nav {
   width: 100%;
   height: 100px;
   background-color: bisque;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
   align-items: center;
   padding: 20px 0;
   position: sticky;
   top: 0;
   z-index: 10;
   color: #c20b0d;
+  padding: 0 30px;
 }
 
 nav .logo {
   text-decoration: none;
   color: #c20b0d;
   font-size: 35px;
-  margin-left: 40px;
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 30px;
-  list-style: none;
+nav ul {
+  display: flex;
+  column-gap: 20px;
+  justify-content: end;
+  align-items: end;
 }
 
 nav ul li a {
@@ -171,6 +172,79 @@ nav .button {
 nav .button:hover {
   border: 1px solid red;
   transition: 0.3s ease-in;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22px;
+  width: 22px;
+}
+
+.nav-toggle .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.nav-toggle:hover {
+  cursor: pointer;
+}
+
+.nav-toggle2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22px;
+  width: 22px;
+}
+
+.nav-toggle2 .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.nav-toggle2:hover {
+  cursor: pointer;
+}
+
+.x:nth-of-type(1) {
+  transition: all 100ms ease-in-out;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  width: 28px;
+}
+
+.x:nth-of-type(2) {
+  transition: all 100ms ease-in-out;
+  transform-origin: center;
+  width: 0;
+}
+
+.x:nth-of-type(3) {
+  transition: all 100ms ease-in-out;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+  width: 28px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%; /* position off-screen */
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  transition: all 0.3s ease-in-out; /* animate the transition */
+  z-index: 10;
+}
+
+.sidebar.active {
+  left: 0; /* position on-screen */
 }
 
 body {
@@ -233,7 +307,6 @@ footer .socials a i {
 /* Your CSS starts here */
 
 .container {
-  position: relative;
   align-items: center;
   width: 100%;
   background: #fff;
@@ -405,25 +478,119 @@ form .form-content .sign-up-text {
 /* Responsiveness */
 
 /* xs */
-@media only screen and (max-width: 0px) {
+@media only screen and (min-width: 0px) {
+  main {
+    height: 600px;
+  }
+
+  .container {
+    box-shadow: none;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding: 20px 20px;
+    row-gap: 10px;
+    background-color: #c20b0d;
+    color: white;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  nav div {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+
+  nav div ul {
+    display: none;
+  }
+
+  nav .logo {
+    text-decoration: none;
+    color: #c20b0d;
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    width: 22px;
+  }
+
+  .nav-toggle2 {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+  }
+
+  .sidebar {
+    padding: 100px 0;
+  }
+
+  .sidebar ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .sidebar ul li a {
+    color: #c20b0d;
+    font-size: 26px;
+  }
+
+  footer {
+    padding: 40px 40px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  main {
+    height: 600px;
+    padding: 80px 0;
+  }
 }
 
 /* mb */
-@media only screen and (max-width: 350px) {
-}
+@media only screen and (min-width: 1024px) {
+  main {
+    height: 600px;
+    padding: 80px 0;
+  }
 
-/* sm */
-@media only screen and (max-width: 600px) {
-}
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22px;
+    width: 22px;
+  }
 
-/* md */
-@media only screen and (max-width: 960px) {
-}
+  nav div ul {
+    display: flex;
+  }
 
-/* lg */
-@media only screen and (max-width: 1280px) {
-}
+  header p {
+    font-size: 24px;
+    font-weight: bolder;
+  }
 
-/* xl */
-@media only screen and (max-width: 1920px) {
+  footer {
+    padding: 40px 80px;
+  }
 }
