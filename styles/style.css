@@ -310,6 +310,7 @@ footer .socials a i {
   color: #c20b0d;
 }
 
+
 /* ============================================================================================ */
 
 /* Your CSS starts here */
@@ -475,7 +476,7 @@ span {
   .sidebar ul {
     display: flex;
     flex-direction: column;
-    row-gap: 60px;
+    row-gap: 50px;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -485,6 +486,7 @@ span {
     color: #c20b0d;
     font-size: 26px;
   }
+
 
   .cover {
     width: 100%;
